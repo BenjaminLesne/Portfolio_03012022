@@ -1,0 +1,9 @@
+.Header__anchor {
+  /* text-transform: capitalize; */
+
+  display: inline-block;
+}
+
+.Header__anchor::first-letter {
+  text-transform: uppercase;
+}

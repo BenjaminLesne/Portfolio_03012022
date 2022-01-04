@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
+
+import { useState } from "react";
+import "./App.css";
 
 function App() {
+  const webPageTextContent = {
+    EN: {
+      headerNavItems: ["about me", "skills", "my projects", "resume"],
+    },
+    FR: {
+      headerNavItems: ["qui suis-je", "compétences", "mes projets", "cv"],
+      hero: {
+        smallText: "bonjour, je suis",
+        bigText: "Benjamin Lesné",
+        mediumText: "Développeur frontend",
+      },
+    },
+  };
+
+  const [language, setLanguage] = useState("EN");
+
+  const customProps = {
+    language: language,
+    textContent: webPageTextContent,
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to suck dicks.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header {...customProps} setLanguage={setLanguage} />
+      <Hero {...customProps} />
+    </>
   );
 }
 

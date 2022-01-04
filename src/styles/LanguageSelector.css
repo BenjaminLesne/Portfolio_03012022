@@ -1,0 +1,38 @@
+.LanguageSelector {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  display: flex;
+  width: 200px;
+}
+
+.LanguageSelector img {
+  width: 50px;
+}
+
+.LanguageSelector__button {
+  border-radius: 30px;
+  height: 40px;
+  width: 80px;
+  background: grey;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.75);
+}
+
+.LanguageSelector__button.active {
+  background: #00acee;
+}
+
+.LanguageSelector__button.active #inner-circle {
+  margin-left: 40px;
+}
+
+.LanguageSelector__button #inner-circle {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  margin-right: 40px;
+}
