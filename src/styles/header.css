@@ -4,9 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.Header__navigation-menu {
+  padding: 20px;
 }
 
 .Header__list-of-anchors {
@@ -15,9 +13,11 @@
 
 .Header__anchor {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 30px;
   font-weight: bold;
   color: var(--primary-color);
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 .Header__anchor::first-letter {

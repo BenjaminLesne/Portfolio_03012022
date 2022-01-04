@@ -1,1 +1,1 @@
--test failed to detect textContent language change after clicking on languageSelector button
+-hero section tests

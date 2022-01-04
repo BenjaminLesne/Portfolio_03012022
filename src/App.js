@@ -7,19 +7,19 @@ import "./App.css";
 function App() {
   const webPageTextContent = {
     EN: {
-      headerNavItems: ["about me", "skills", "my projects", "resume"],
+      headerNavItems: ["about me", "skills", "my projects", "cv"],
       hero: {
-        smallText: "Hi, my name is",
-        bigText: "Benjamin Lesné",
-        mediumText: "Frontend developer",
+        firstTextPart: "hi, my name is",
+        secondTextPart: "benjamin lesné",
+        thirdTextPart: "frontend developer",
       },
     },
     FR: {
       headerNavItems: ["qui suis-je", "compétences", "mes projets", "cv"],
       hero: {
-        smallText: "bonjour, je suis",
-        bigText: "Benjamin Lesné",
-        mediumText: "Développeur frontend",
+        firstTextPart: "bonjour, je suis",
+        secondTextPart: "benjamin lesné",
+        thirdTextPart: "développeur frontend",
       },
     },
   };

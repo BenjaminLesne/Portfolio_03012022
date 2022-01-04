@@ -33,8 +33,8 @@ test("render text content related to language selected", async () => {
   expect(headerTextContent).toBeInTheDocument();
 
   // hero
-  // const heroTextContent = screen.getByText(/Bonjour, je suis/i);
-  // expect(heroTextContent).toBeInTheDocument();
+  const heroTextContent = screen.getByText(/Bonjour, je suis/i);
+  expect(heroTextContent).toBeInTheDocument();
 
   // about me
 

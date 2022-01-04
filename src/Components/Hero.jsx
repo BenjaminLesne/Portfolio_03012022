@@ -1,10 +1,18 @@
-const Hero = () => {
+import "../styles/Hero.css";
+
+const Hero = ({ language, textContent }) => {
   return (
     <div className="Hero">
       <p>
-        <span className="Hero__small-text">Hi my name is</span>
-        <span className="Hero__big-text">Benjamin Lesné</span>
-        <span className="Hero__medium-text">Frontend Developer</span>
+        <span className="Hero__text Hero__text--small">
+          {textContent[language].hero.firstTextPart}
+        </span>
+        <span className="Hero__text Hero__text--big">
+          {textContent[language].hero.secondTextPart}
+        </span>
+        <span className="Hero__text Hero__text--medium">
+          {textContent[language].hero.thirdTextPart}
+        </span>
       </p>
     </div>
   );
