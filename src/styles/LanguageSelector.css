@@ -1,19 +1,17 @@
 .LanguageSelector {
-  position: absolute;
-  top: 20px;
-  right: 100px;
   display: flex;
-  width: 200px;
+  width: 100px;
+  cursor: pointer;
 }
 
-.LanguageSelector img {
-  width: 50px;
+.LanguageSelector__flags {
+  width: 25%;
 }
 
 .LanguageSelector__button {
   border-radius: 30px;
-  height: 40px;
-  width: 80px;
+  width: 40%;
+  aspect-ratio: 2 / 1;
   background: grey;
   padding: 5px;
   transition: all 0.3s ease-in-out;
@@ -24,15 +22,15 @@
   background: #00acee;
 }
 
-.LanguageSelector__button.active #inner-circle {
-  margin-left: 40px;
+.LanguageSelector__button.active .LanguageSelector__inner-circle {
+  margin-left: 50%;
 }
 
-.LanguageSelector__button #inner-circle {
-  width: 40px;
-  height: 40px;
+.LanguageSelector__inner-circle {
+  height: 100%;
+  aspect-ratio: 1 / 1;
   background-color: white;
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
-  margin-right: 40px;
+  margin-right: 50%;
 }

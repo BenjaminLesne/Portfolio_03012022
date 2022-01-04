@@ -1,7 +1,23 @@
-.Header__anchor {
-  /* text-transform: capitalize; */
+@import url("./variables.css");
 
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header__navigation-menu {
+}
+
+.Header__list-of-anchors {
+  display: flex;
+}
+
+.Header__anchor {
   display: inline-block;
+  margin: 0 10px;
+  font-weight: bold;
+  color: var(--primary-color);
 }
 
 .Header__anchor::first-letter {

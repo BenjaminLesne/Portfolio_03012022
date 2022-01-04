@@ -8,6 +8,11 @@ function App() {
   const webPageTextContent = {
     EN: {
       headerNavItems: ["about me", "skills", "my projects", "resume"],
+      hero: {
+        smallText: "Hi, my name is",
+        bigText: "Benjamin Lesné",
+        mediumText: "Frontend developer",
+      },
     },
     FR: {
       headerNavItems: ["qui suis-je", "compétences", "mes projets", "cv"],
