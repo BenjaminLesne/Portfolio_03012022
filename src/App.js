@@ -1,5 +1,6 @@
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
+import SocialMedia from "./Components/SocialMedia";
 
 import { useState } from "react";
 import "./App.css";
@@ -33,6 +34,7 @@ function App() {
 
   return (
     <>
+      <SocialMedia />
       <Header {...customProps} setLanguage={setLanguage} />
       <Hero {...customProps} />
     </>

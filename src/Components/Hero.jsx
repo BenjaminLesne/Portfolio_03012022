@@ -3,7 +3,7 @@ import "../styles/Hero.css";
 const Hero = ({ language, textContent }) => {
   return (
     <div className="Hero">
-      <p>
+      <p className="Hero__text-wrapper">
         <span className="Hero__text Hero__text--small">
           {textContent[language].hero.firstTextPart}
         </span>

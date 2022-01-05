@@ -1,0 +1,41 @@
+@import url("./variables.css");
+
+.SocialMedia {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.SocialMedia__links-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.SocialMedia__links-wrapper::after {
+  display: block;
+  content: "";
+  width: 0;
+  height: 20vh;
+  border: solid var(--primary-color) 1px;
+  margin: auto;
+  background-color: var(--primary-color);
+}
+
+.SocialMedia__link {
+  margin: 10px 0;
+  border: 2px solid var(--primary-color);
+  border-radius: 100%;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SocialMedia__icon {
+  fill: var(--primary-color);
+  width: 1.2rem;
+  height: 1.2rem;
+}

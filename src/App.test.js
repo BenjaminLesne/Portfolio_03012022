@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "./App";
 
-test("renders header, footer and 3 sections", () => {
+test("renders header, footer, aside and 3 sections", () => {
   render(<App />);
   // header
   const headerTextContent = screen.getByText(/About me/i);
@@ -11,8 +11,12 @@ test("renders header, footer and 3 sections", () => {
   expect(languageButton).toBeInTheDocument();
 
   // hero
-  const heroTextContent = screen.getByText(/Hi my name is/i);
+  const heroTextContent = screen.getByText(/Hi, my name is/i);
   expect(heroTextContent).toBeInTheDocument();
+
+  // aside
+  const asideNavigation = screen.getByTestId("SocialMedia");
+  expect(asideNavigation).toBeInTheDocument();
 
   // about me
 
