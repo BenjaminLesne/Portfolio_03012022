@@ -19,6 +19,8 @@ test("renders header, footer, aside and 3 sections", () => {
   expect(asideNavigation).toBeInTheDocument();
 
   // about me
+  const aboutMeSection = screen.getByText(/My story/i);
+  expect(aboutMeSection).toBeInTheDocument();
 
   // skills section
 
@@ -33,8 +35,8 @@ test("render text content related to language selected", async () => {
 
   userEvent.click(languageButton);
   // header
-  const headerTextContent = await screen.findByText(/Qui suis-je/i);
-  expect(headerTextContent).toBeInTheDocument();
+  const headerTextContent = await screen.findAllByText(/Qui suis-je/i);
+  expect(headerTextContent.length).toBe(2);
 
   // hero
   const heroTextContent = screen.getByText(/Bonjour, je suis/i);

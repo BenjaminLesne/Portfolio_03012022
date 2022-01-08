@@ -1,6 +1,6 @@
+@import url("./defaultSection.css");
+
 .Hero {
-  width: 100%;
-  aspect-ratio: 3 / 1;
   display: flex;
   align-items: center;
 }

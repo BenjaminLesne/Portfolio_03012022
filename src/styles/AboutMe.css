@@ -1,0 +1,12 @@
+@import url("./defaultSection.css");
+@import url("./variables.css");
+
+.AboutMe {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.AboutMe__heading {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
