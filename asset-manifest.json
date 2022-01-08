@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio_03012022/static/css/main.415c3f2d.css",
-    "main.js": "/Portfolio_03012022/static/js/main.00bbff2d.js",
+    "main.css": "/Portfolio_03012022/static/css/main.646e856a.css",
+    "main.js": "/Portfolio_03012022/static/js/main.432fa46e.js",
     "static/js/787.51e4b9ae.chunk.js": "/Portfolio_03012022/static/js/787.51e4b9ae.chunk.js",
     "static/media/UkFlag.svg": "/Portfolio_03012022/static/media/UkFlag.2040948fa3df21a84716f1d944b51080.svg",
     "index.html": "/Portfolio_03012022/index.html",
     "static/media/FrenchFlag.svg": "/Portfolio_03012022/static/media/FrenchFlag.741f9c1a839b61642c60ed53a6214ce3.svg",
-    "main.415c3f2d.css.map": "/Portfolio_03012022/static/css/main.415c3f2d.css.map",
-    "main.00bbff2d.js.map": "/Portfolio_03012022/static/js/main.00bbff2d.js.map",
+    "main.646e856a.css.map": "/Portfolio_03012022/static/css/main.646e856a.css.map",
+    "main.432fa46e.js.map": "/Portfolio_03012022/static/js/main.432fa46e.js.map",
     "787.51e4b9ae.chunk.js.map": "/Portfolio_03012022/static/js/787.51e4b9ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.415c3f2d.css",
-    "static/js/main.00bbff2d.js"
+    "static/css/main.646e856a.css",
+    "static/js/main.432fa46e.js"
   ]
 }
