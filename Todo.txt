@@ -1,1 +1,2 @@
 -srcset aboutme section
+-add a test to check if img in aboutme section return the alternative text. (=check if img is rendered properly)
