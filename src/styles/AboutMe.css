@@ -4,9 +4,43 @@
 .AboutMe {
   color: white;
   background-color: var(--primary-color);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.AboutMe__text-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--section-padding);
+  padding-right: 0;
 }
 
 .AboutMe__heading {
   text-transform: uppercase;
   letter-spacing: 10px;
+  font-size: clamp(1rem, 2.5vw, 2.5rem);
+}
+
+.AboutMe__story {
+  font-size: clamp(0.5rem, 2.5vw, 1.25rem);
+}
+
+.AboutMe__callToAction {
+  text-decoration: underline;
+}
+
+.AboutMe__image-wrapper {
+  flex: 1;
+  position: relative;
+}
+
+.AboutMe__picture {
+  max-height: 135%;
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }

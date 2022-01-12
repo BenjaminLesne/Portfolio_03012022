@@ -1,2 +1,7 @@
--srcset aboutme section
--add a test to check if img in aboutme section return the alternative text. (=check if img is rendered properly)
+-faire en sorte qu'un lien soit fait sur le text aboutme openclassrooms etc
+-animation aside en fonction du background changer la couleur. rectbound % inside rect back ground white hiehgt inscrease
+
+-je metterai les subsections dans un div commun pour display flex column avec gap.
+Je préfere gap a margin parce que ca cible plus exactement ce que je veux faire.
+cad un écart entre mes éléments. margin pousse les autres élements de mon élémeent cible.
+Ce qui donne un résutlat voulu mais avec un logique differentes. 

@@ -10,27 +10,27 @@ const LanguageSelector = ({ language, textContent, setLanguage }) => {
     );
 
     switch (language) {
-      case "english":
+      case "french":
         if (languageSelectorButton.classList.contains("active")) {
           languageSelectorButton.classList.remove("active");
-          setLanguage("EN");
+          setLanguage("FR");
         }
         break;
 
-      case "french":
+      case "english":
         if (!languageSelectorButton.classList.contains("active")) {
           languageSelectorButton.classList.add("active");
-          setLanguage("FR");
+          setLanguage("EN");
         }
         break;
 
       default:
         if (languageSelectorButton.classList.contains("active")) {
           languageSelectorButton.classList.remove("active");
-          setLanguage("EN");
+          setLanguage("FR");
         } else {
           languageSelectorButton.classList.add("active");
-          setLanguage("FR");
+          setLanguage("EN");
         }
         break;
     }
@@ -40,10 +40,10 @@ const LanguageSelector = ({ language, textContent, setLanguage }) => {
     <div className="LanguageSelector">
       <img
         className="LanguageSelector__flags"
-        src={UkFlag}
-        alt="UK flag / Drapeau anglais"
-        onClick={() => handleLanguageChange("english")}
-        data-testid="LanguageSelectorButton--english"
+        src={FrenchFlag}
+        alt="French flag / Drapeau français"
+        onClick={() => handleLanguageChange("french")}
+        data-testid="LanguageSelectorButton--french"
       />
       <div
         data-testid="LanguageSelectorButton"
@@ -54,10 +54,10 @@ const LanguageSelector = ({ language, textContent, setLanguage }) => {
       </div>
       <img
         className="LanguageSelector__flags"
-        src={FrenchFlag}
-        alt="French flag / Drapeau français"
-        onClick={() => handleLanguageChange("french")}
-        data-testid="LanguageSelectorButton--french"
+        src={UkFlag}
+        alt="UK flag / Drapeau anglais"
+        onClick={() => handleLanguageChange("english")}
+        data-testid="LanguageSelectorButton--english"
       />
     </div>
   );

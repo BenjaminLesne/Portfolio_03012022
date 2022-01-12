@@ -1,0 +1,32 @@
+@import url("./variables.css");
+@import url("./section-heading.css");
+
+.Skills {
+  padding: var(--section-padding);
+}
+
+.Skills__items {
+  display: flex;
+}
+
+.Skills__item {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Skills__logo {
+  height: 100%;
+  max-width: 100%;
+}
+
+.Skills__name {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
