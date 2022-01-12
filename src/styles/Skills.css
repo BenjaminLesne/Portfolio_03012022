@@ -5,10 +5,14 @@
   padding: var(--section-padding);
 }
 
+.Skills__heading {
+  margin-bottom: 0;
+}
+
 .Skills__subSections {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 50px;
 }
 
 .Skills__subHeading::first-letter {
@@ -16,7 +20,9 @@
 }
 
 .Skills__items {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 75px);
+  gap: 75px;
 }
 
 .Skills__item {
@@ -24,14 +30,19 @@
   height: 100px;
   display: flex;
   flex-direction: column;
-  justify-self: center;
+  justify-items: center;
   align-items: center;
   gap: 10px;
 }
 
+.Skills__logo-wrapper {
+  width: 75px;
+  aspect-ratio: 1 / 1;
+}
+
 .Skills__logo {
-  height: 100%;
-  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
 }
 
 .Skills__name {

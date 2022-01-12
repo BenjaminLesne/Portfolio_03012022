@@ -42,13 +42,13 @@ const AboutMe = ({ language, textContent }) => {
     <section className="AboutMe defaultSection">
       <div className="AboutMe__text-wrapper">
         <h2 className="AboutMe__heading">
-          {textContent[language].aboutMe.heading}
+          {textContent.aboutMe[language].heading}
         </h2>
 
         <p className="AboutMe__story">
           <span
             dangerouslySetInnerHTML={{
-              __html: formatString(textContent[language].aboutMe.story),
+              __html: formatString(textContent.aboutMe[language].story),
             }}
           ></span>
           <br />
@@ -57,7 +57,7 @@ const AboutMe = ({ language, textContent }) => {
             className="AboutMe__callToAction"
             dangerouslySetInnerHTML={{
               __html: convertLinkInStringToHTML(
-                textContent[language].aboutMe.callToAction
+                textContent.aboutMe[language].callToAction
               ),
             }}
           ></i>

@@ -9,13 +9,13 @@ const Header = ({ language, textContent, setLanguage }) => {
       <LanguageSelector setLanguage={setLanguage} />
       <nav className="Header__navigation-menu">
         <ul className="Header__list-of-anchors">
-          {textContent[language].headerNavItems.map((item, index) => (
+          {textContent.headerNavItems[language].map((item, index) => (
             <li key={uuidv4()}>
               <a
                 className="Header__anchor"
                 href={
                   "#" +
-                  textContent["EN"].headerNavItems[index].replace(" ", "-")
+                  textContent.headerNavItems["EN"][index].replace(" ", "-")
                 }
               >
                 {item}
