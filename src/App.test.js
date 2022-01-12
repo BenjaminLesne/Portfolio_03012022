@@ -65,8 +65,8 @@ test("render text content related to language selected", async () => {
   expect(aboutMeSection).toBeInTheDocument();
 
   // skills section
-  const skillsSection = await screen.findByText(/skills/i);
-  expect(skillsSection).toBeInTheDocument();
+  const skillsSection = await screen.findAllByText(/skills/i);
+  expect(skillsSection[1]).toBeInTheDocument();
 
   // my projects
 

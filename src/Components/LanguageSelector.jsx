@@ -1,5 +1,5 @@
-import UkFlag from "../assets/UkFlag.svg";
-import FrenchFlag from "../assets/FrenchFlag.svg";
+import UkFlag from "../assets/logos/languages/UkFlag.svg";
+import FrenchFlag from "../assets/logos/languages/FrenchFlag.svg";
 
 import "../styles/LanguageSelector.css";
 

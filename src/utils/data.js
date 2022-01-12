@@ -1,4 +1,4 @@
-import reactLogo from "../assets/reactLogo.png";
+import reactLogo from "../assets/logos/skills/reactLogo.png";
 
 const webPageTextContent = {
   EN: {

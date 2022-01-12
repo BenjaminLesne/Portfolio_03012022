@@ -5,6 +5,16 @@
   padding: var(--section-padding);
 }
 
+.Skills__subSections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Skills__subHeading::first-letter {
+  text-transform: uppercase;
+}
+
 .Skills__items {
   display: flex;
 }

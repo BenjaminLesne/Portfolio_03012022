@@ -8,29 +8,31 @@ const Skills = ({ language, textContent }) => {
       <h2 className="Skills__heading section-heading">
         {textContent[language].skills.heading}
       </h2>
-      {textContent[language].skills.subSections.map((item) => {
-        return (
-          <React.Fragment key={uuidv4()}>
-            <h3 className="Skills__subHeading">{item.heading}</h3>
-            <ul className="Skills__items">
-              {item.content.map((item) => {
-                return (
-                  <li key={uuidv4()} className="Skills__item">
-                    <div className="Skills__logo-wrapper">
-                      <img
-                        className="Skills__logo"
-                        src={item.logo}
-                        alt={item.name + " logo"}
-                      />
-                    </div>
-                    <div className="Skills__name">{item.name}</div>
-                  </li>
-                );
-              })}
-            </ul>
-          </React.Fragment>
-        );
-      })}
+      <div className="Skills__subSections">
+        {textContent[language].skills.subSections.map((item) => {
+          return (
+            <section className="Skills__subSection" key={uuidv4()}>
+              <h3 className="Skills__subHeading">{item.heading}:</h3>
+              <ul className="Skills__items">
+                {item.content.map((item) => {
+                  return (
+                    <li key={uuidv4()} className="Skills__item">
+                      <div className="Skills__logo-wrapper">
+                        <img
+                          className="Skills__logo"
+                          src={item.logo}
+                          alt={item.name + " logo"}
+                        />
+                      </div>
+                      <div className="Skills__name">{item.name}</div>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          );
+        })}
+      </div>
     </section>
   );
 };
