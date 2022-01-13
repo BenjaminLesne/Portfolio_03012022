@@ -1,5 +1,12 @@
+-check algorithme de recherche en ligne cf OC courses
+-check compatibilit& avec chrome
+
+// pas rentable:
 -animation aside en fonction du background changer la couleur. rectbound % inside rect back ground white hiehgt inscrease
     ->lazy version, white background on icon. Problem, the vertical bar ::after, doesnt have background visible so it disappears on top of a blue background
 
-
--check compatibilit& avec chrome
+//pas rentable
+-idée animation filter
+quand on clique le blanc se décale vers le bouton cliquer ease in out. POur le faire, go mettre un div backgrou,d white qui se transform translate au clique.
+=> c'est duuuuuuur, je sais pas comment faire changer la couleur du text + la bordure et
+ tout ca faut que ca se fasse a travers tous les li

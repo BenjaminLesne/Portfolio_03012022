@@ -1,0 +1,31 @@
+@import url("./defaultSection.css");
+@import url("./variables.css");
+
+.MyProjectsSection {
+  color: white;
+  background-color: var(--primary-color);
+
+  display: flex;
+  flex-direction: column;
+  padding: var(--section-padding);
+}
+
+.MyProjectsSection__filters {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.MyProjectsSection__filter {
+  text-align: center;
+  border-bottom: solid rgba(255, 255, 255, 0.2) 2px;
+  color: rgba(255, 255, 255, 0.2);
+  flex: 1;
+  cursor: pointer;
+}
+
+.MyProjectsSection__filter.active {
+  border-bottom: solid rgba(255, 255, 255, 1) 2px;
+  color: rgba(255, 255, 255, 1);
+}

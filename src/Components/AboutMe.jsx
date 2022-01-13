@@ -18,9 +18,6 @@ const AboutMe = ({ language, textContent }) => {
   }
 
   function convertLinkInStringToHTML(string) {
-    // const regexGetStringInsideParentheses = /\(([^)]+)\)/;
-    // const regexGetStringInsideBrackets = /\[(.*?)\]/;
-
     const newString = string.replace(
       /\[(.*?)\]\(([^)]+)\)/g,
       function (match, linkText, url) {
@@ -41,14 +38,12 @@ const AboutMe = ({ language, textContent }) => {
   return (
     <section className="AboutMe defaultSection">
       <div className="AboutMe__text-wrapper">
-        <h2 className="AboutMe__heading">
-          {textContent.aboutMe[language].heading}
-        </h2>
+        <h2 className="AboutMe__heading">{textContent[language].heading}</h2>
 
         <p className="AboutMe__story">
           <span
             dangerouslySetInnerHTML={{
-              __html: formatString(textContent.aboutMe[language].story),
+              __html: formatString(textContent[language].story),
             }}
           ></span>
           <br />
@@ -57,7 +52,7 @@ const AboutMe = ({ language, textContent }) => {
             className="AboutMe__callToAction"
             dangerouslySetInnerHTML={{
               __html: convertLinkInStringToHTML(
-                textContent.aboutMe[language].callToAction
+                textContent[language].callToAction
               ),
             }}
           ></i>

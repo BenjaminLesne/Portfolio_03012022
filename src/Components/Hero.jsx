@@ -5,13 +5,13 @@ const Hero = ({ language, textContent }) => {
     <div className="Hero defaultSection">
       <p className="Hero__text-wrapper">
         <span className="Hero__text Hero__text--small">
-          {textContent.hero[language].firstTextPart}
+          {textContent[language].firstTextPart}
         </span>
         <span className="Hero__text Hero__text--big">
-          {textContent.hero[language].secondTextPart}
+          {textContent[language].secondTextPart}
         </span>
         <span className="Hero__text Hero__text--medium">
-          {textContent.hero[language].thirdTextPart}
+          {textContent[language].thirdTextPart}
         </span>
       </p>
     </div>

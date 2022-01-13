@@ -1,11 +1,9 @@
-const AtIcon = ({ className }) => {
+const AtIcon = ({ className, color }) => {
   return (
     <svg
+      fill={color}
       className={className}
-      width="31"
-      height="30"
-      viewBox="0 0 31 30"
-      fill="none"
+      viewBox="1 0 30 30"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

@@ -6,10 +6,10 @@ const Skills = ({ language, textContent }) => {
   return (
     <section className="Skills" id="skills">
       <h2 className="Skills__heading section-heading">
-        {textContent.skills.heading[language]}
+        {textContent.heading[language]}
       </h2>
       <div className="Skills__subSections">
-        {textContent.skills.subSections.map((item) => {
+        {textContent.subSections.map((item) => {
           return (
             <section className="Skills__subSection" key={uuidv4()}>
               <h3 className="Skills__subHeading">{item.heading[language]}:</h3>
@@ -19,8 +19,6 @@ const Skills = ({ language, textContent }) => {
                     ? item.name[language]
                     : item.name;
 
-                  console.log("itemValue");
-                  console.log(itemValue);
                   return (
                     <li key={uuidv4()} className="Skills__item">
                       <div className="Skills__logo-wrapper">

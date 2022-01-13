@@ -33,7 +33,7 @@ const webPageTextContent = {
       thirdTextPart: "développeur front-end",
     },
   },
-  aboutMe: {
+  aboutMeSection: {
     EN: {
       heading: "my story",
       story:
@@ -49,7 +49,7 @@ const webPageTextContent = {
     },
   },
 
-  skills: {
+  skillsSection: {
     heading: {
       EN: "skills",
       FR: "compétences",
@@ -118,6 +118,13 @@ const webPageTextContent = {
         },
         content: [
           {
+            logo: FrenchFlag,
+            name: {
+              EN: "french native",
+              FR: "français natif",
+            },
+          },
+          {
             logo: UkFlag,
             name: {
               EN: "english fluent",
@@ -131,111 +138,51 @@ const webPageTextContent = {
               FR: "espagnol intermédiaire",
             },
           },
-          {
-            logo: FrenchFlag,
-            name: {
-              EN: "french native",
-              FR: "français natif",
-            },
-          },
         ],
       },
     ],
   },
-
-  // FR: {
-  //   headerNavItems: ["qui suis-je", "compétences", "mes projets", "cv"],
-  //   hero: {
-  //     firstTextPart: "bonjour, je suis",
-  //     secondTextPart: "benjamin lesné",
-  //     thirdTextPart: "développeur front-end",
-  //   },
-  //   aboutMe: {
-  //     heading: "qui suis-je",
-  //     story:
-  //       "Après le lycée, j'ai essayé différents domaines et il m'a fallu du temps pour trouver la carrière qui me correspondait le mieux. Jusqu'à ce que je découvre ma passion pour le code. Maintenant, après la [formation Front-End d'Openclassrooms](https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react), je suis prêt à commencer ma carrière.",
-  //     callToAction: "[découvrez mes projets ici](#my-projects) !",
-  //   },
-  //   skills: {
-  //     heading: "compétences",
-  //     subSections: [
-  //       {
-  //         heading: "j'utilise",
-  //         content: [
-  //           {
-  //             logo: reactLogo,
-  //             name: "react",
-  //           },
-  //           {
-  //             logo: javaScriptLogo,
-  //             name: "javascript",
-  //           },
-  //           {
-  //             logo: reduxLogo,
-  //             name: "redux",
-  //           },
-  //           {
-  //             logo: jestLogo,
-  //             name: "jest",
-  //           },
-  //           {
-  //             logo: gitLogo,
-  //             name: "git",
-  //           },
-  //           {
-  //             logo: sassLogo,
-  //             name: "sass",
-  //           },
-  //           {
-  //             logo: css3Logo,
-  //             name: "css3",
-  //           },
-  //           {
-  //             logo: html5Logo,
-  //             name: "html5",
-  //           },
-  //         ],
-  //       },
-  //       {
-  //         heading: "j'apprends",
-  //         content: [
-  //           {
-  //             logo: reactLogo,
-  //             name: "react",
-  //           },
-  //           {
-  //             logo: reactLogo,
-  //             name: "react",
-  //           },
-  //           {
-  //             logo: reactLogo,
-  //             name: "react",
-  //           },
-  //         ],
-  //       },
-  //       {
-  //         heading: "je parle",
-  //         content: [
-  //           {
-  //             logo: reactLogo,
-  //             name: "react",
-  //           },
-  //           {
-  //             logo: reactLogo,
-  //             name: "react",
-  //           },
-  //           {
-  //             logo: reactLogo,
-  //             name: "react",
-  //           },
-  //         ],
-  //       },
-  //     ],
-  //   },
-  // },
+  myProjectsSection: {
+    heading: { EN: "my projects", FR: "mes projets" },
+    filters: [
+      {
+        FR: "tous",
+        EN: "all",
+      },
+      "react",
+      "js vanilla",
+      "redux",
+      "sass",
+    ],
+    projects: [
+      {
+        rate: 10,
+        favorite: true,
+        name: "HRnet",
+        websiteUrl:
+          "https://benjaminlesne.github.io/BenjaminLesne_14_07122021/",
+        sourceCodeUrl:
+          "https://github.com/BenjaminLesne/BenjaminLesne_14_07122021",
+        description: {
+          FR: "Refonte d'une application, gérant le registre des employés, en React (originellement en Jquery).",
+          EN: "Redesign of an application, managing the employee register, in React (originally in Jquery).",
+        },
+      },
+      {
+        rate: 5,
+        favorite: true,
+        name: "ohmyfood",
+        websiteLink:
+          "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
+        sourceCodeLink:
+          "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
+        description: {
+          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques.",
+          EN: "Mobile-first site that lists the menus of gourmet restaurants.",
+        },
+      },
+    ],
+  },
 };
-
-// FR:["j'utilise", "j'apprends", "je parle"],
-// EN:["using now", "learning", "what I speak"]
 
 export default webPageTextContent;
