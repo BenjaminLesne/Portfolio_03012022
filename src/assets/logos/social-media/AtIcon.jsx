@@ -3,7 +3,7 @@ const AtIcon = ({ className, color }) => {
     <svg
       fill={color}
       className={className}
-      viewBox="1 0 30 30"
+      viewBox="0 0 31 30"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
