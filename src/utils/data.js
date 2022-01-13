@@ -7,6 +7,7 @@ import gitLogo from "../assets/logos/skills/Git.svg";
 import sassLogo from "../assets/logos/skills/Sass.svg";
 import css3Logo from "../assets/logos/skills/CSS3.svg";
 import html5Logo from "../assets/logos/skills/HTML5.svg";
+import JSdocLogo from "../assets/logos/skills/JSdoc.svg";
 
 import typeScritLogo from "../assets/logos/skills/TypeScript.svg";
 
@@ -75,6 +76,10 @@ const webPageTextContent = {
           {
             logo: jestLogo,
             name: "jest",
+          },
+          {
+            logo: JSdocLogo,
+            name: "jsdoc",
           },
           {
             logo: gitLogo,
