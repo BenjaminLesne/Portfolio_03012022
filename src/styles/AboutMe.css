@@ -10,7 +10,7 @@
 }
 
 .AboutMe__text-wrapper {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,15 +32,10 @@
   text-decoration: underline;
 }
 
-.AboutMe__image-wrapper {
-  flex: 1;
-  position: relative;
-}
-
 .AboutMe__picture {
-  max-height: 135%;
-  max-width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  height: 123%;
+  padding-right: var(--section-padding);
+
+  /* make the picture behave like bottom:0px; in its container. */
+  transform: translateY(calc(100% * ((100 / var(--picture-height)) - 1)));
 }

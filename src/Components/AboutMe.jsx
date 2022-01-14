@@ -58,16 +58,14 @@ const AboutMe = ({ language, textContent }) => {
           ></i>
         </p>
       </div>
-      <div className="AboutMe__image-wrapper">
-        <img
-          className="AboutMe__picture"
-          srcSet={`${picture250W} 250w, .${picture500W} 500w, ${picture700W} 700w,${defaultPicture} 900w,`}
-          sizes="(max-width: 250px) 250px, (max-width: 500px) 500px,(max-width: 700px) 700px,
+      <img
+        className="AboutMe__picture"
+        srcSet={`${picture250W} 250w, .${picture500W} 500w, ${picture700W} 700w,${defaultPicture} 900w,`}
+        sizes="(max-width: 250px) 250px, (max-width: 500px) 500px,(max-width: 700px) 700px,
             900px"
-          src={defaultPicture}
-          alt="EN:website Author Benjamin Lesne / FR:créateur du site Benjamin Lesne"
-        />
-      </div>
+        src={defaultPicture}
+        alt="EN:website Author Benjamin Lesne / FR:créateur du site Benjamin Lesne"
+      />
     </section>
   );
 };
