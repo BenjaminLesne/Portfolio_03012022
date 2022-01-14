@@ -2,4 +2,5 @@
   --primary-color: #25364a;
   --section-padding: clamp(78px, 6%, 100vw);
   --picture-height: 123;
+  --filter-transition-time: 0.4s;
 }

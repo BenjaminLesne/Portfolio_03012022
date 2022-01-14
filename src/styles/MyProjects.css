@@ -23,9 +23,12 @@
   color: rgba(255, 255, 255, 0.2);
   flex: 1;
   cursor: pointer;
+  transition: var(--filter-transition-time) ease;
+  text-transform: uppercase;
 }
 
 .MyProjectsSection__filter.active {
   border-bottom: solid rgba(255, 255, 255, 1) 2px;
   color: rgba(255, 255, 255, 1);
+  transition: var(--filter-transition-time) ease-in;
 }

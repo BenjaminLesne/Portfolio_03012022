@@ -1,7 +1,7 @@
-import LanguageSelector from "./LanguageSelector";
+import LanguageSelector from "../LanguageSelector";
 import { v4 as uuidv4 } from "uuid";
 
-import "../styles/header.css";
+import "../../styles/header.css";
 
 const Header = ({ language, textContent, setLanguage }) => {
   return (

@@ -1,9 +1,9 @@
-import "../styles/AboutMe.css";
+import "../../styles/AboutMe.css";
 
-import picture250W from "../assets/pictures/me-250w.png";
-import picture500W from "../assets/pictures/me-500w.png";
-import picture700W from "../assets/pictures/me-700w.png";
-import defaultPicture from "../assets/pictures/me-900w.png";
+import picture250W from "../../assets/pictures/me-250w.png";
+import picture500W from "../../assets/pictures/me-500w.png";
+import picture700W from "../../assets/pictures/me-700w.png";
+import defaultPicture from "../../assets/pictures/me-900w.png";
 
 const AboutMe = ({ language, textContent }) => {
   function uppercaseFirstLetterAfterDot(string) {

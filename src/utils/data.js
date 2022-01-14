@@ -33,7 +33,7 @@ const webPageTextContent = {
       thirdTextPart: "développeur front-end",
     },
   },
-  aboutMeSection: {
+  aboutMe: {
     EN: {
       heading: "my story",
       story:
@@ -49,7 +49,7 @@ const webPageTextContent = {
     },
   },
 
-  skillsSection: {
+  skills: {
     heading: {
       EN: "skills",
       FR: "compétences",
@@ -142,7 +142,7 @@ const webPageTextContent = {
       },
     ],
   },
-  myProjectsSection: {
+  myProjects: {
     heading: { EN: "my projects", FR: "mes projets" },
     filters: [
       {

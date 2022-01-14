@@ -1,23 +1,22 @@
-import "../styles/MyProjectsSection.css";
+import "../../styles/MyProjects.css";
 
 import { v4 as uuidv4 } from "uuid";
 import React from "react";
 
-import Project from "./Project";
+import Project from "../Project";
 
-const MyProjectsSection = ({ language, textContent }) => {
+const MyProjects = ({ language, textContent }) => {
   function filterManager(e) {
-    console.log(e.target);
-    document.getElementsByClassName("active")[0].classList.remove("active");
+    document.getElementsByClassName("active")[0]?.classList.remove("active");
     e.target.classList.add("active");
   }
   return (
-    <section className="MyProjectsSection defaultSection" id="my-projects">
-      <h2 className="MyProjectsSection__heading section-heading">
+    <section className="MyProjects defaultSection" id="my-projects">
+      <h2 className="MyProjects__heading section-heading">
         {textContent.heading[language]}
       </h2>
-      <div className="MyProjectsSection__showcase">
-        <ul className="MyProjectsSection__filters">
+      <div className="MyProjects__showcase">
+        <ul className="MyProjects__filters">
           {textContent.filters.map((filter) => {
             const filterValue = filter[language] ? filter[language] : filter;
 
@@ -25,7 +24,7 @@ const MyProjectsSection = ({ language, textContent }) => {
               <li
                 onClick={(e) => filterManager(e)}
                 key={uuidv4()}
-                className="MyProjectsSection__filter"
+                className="MyProjects__filter"
               >
                 {filterValue}
               </li>
@@ -58,4 +57,4 @@ const MyProjectsSection = ({ language, textContent }) => {
   );
 };
 
-export default MyProjectsSection;
+export default MyProjects;

@@ -1,10 +1,10 @@
-import "../styles/Skills.css";
+import "../../styles/Skills.css";
 import { v4 as uuidv4 } from "uuid";
 import React from "react";
 
 const Skills = ({ language, textContent }) => {
   return (
-    <section className="Skills" id="skills">
+    <section className="Skills" id="skills" data-testid="skills">
       <h2 className="Skills__heading section-heading">
         {textContent.heading[language]}
       </h2>

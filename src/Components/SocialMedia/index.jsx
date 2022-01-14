@@ -1,9 +1,9 @@
 import { v4 as uuidv4 } from "uuid";
-import EmailIcon from "../assets/logos/social-media/AtIcon";
-import GithubIcon from "../assets/logos/social-media/GithubIcon";
-import LinkedInIcon from "../assets/logos/social-media/LinkedInIcon";
+import EmailIcon from "../../assets/logos/social-media/AtIcon";
+import GithubIcon from "../../assets/logos/social-media/GithubIcon";
+import LinkedInIcon from "../../assets/logos/social-media/LinkedInIcon";
 
-import "../styles/SocialMedia.css";
+import "../../styles/SocialMedia.css";
 
 const SocialMedia = ({ language }) => {
   const data = [

@@ -3,7 +3,7 @@ import Hero from "./Components/Hero";
 import SocialMedia from "./Components/SocialMedia";
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
-import MyProjectsSection from "./Components/MyProjectsSection";
+import MyProjects from "./Components/MyProjects";
 
 import webPageTextContent from "./utils/data";
 
@@ -23,16 +23,10 @@ function App() {
       />
       <main>
         <Hero textContent={webPageTextContent.hero} language={language} />
-        <AboutMe
-          textContent={webPageTextContent.aboutMeSection}
-          language={language}
-        />
-        <Skills
-          textContent={webPageTextContent.skillsSection}
-          language={language}
-        />
-        <MyProjectsSection
-          textContent={webPageTextContent.myProjectsSection}
+        <AboutMe textContent={webPageTextContent.aboutMe} language={language} />
+        <Skills textContent={webPageTextContent.skills} language={language} />
+        <MyProjects
+          textContent={webPageTextContent.myProjects}
           language={language}
         />
       </main>
