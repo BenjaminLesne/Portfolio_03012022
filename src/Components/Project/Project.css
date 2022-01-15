@@ -1,0 +1,43 @@
+.Project {
+  border-radius: 10px;
+  background-color: red;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.Project__icon-favorite {
+  position: absolute;
+  top: 0;
+  right: 0;
+  aspect-ratio: 1;
+  width: 50px;
+  background-color: blueviolet;
+}
+
+.Project__name {
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.Project__description {
+  font-size: clamp(1rem, 0.5vw, 1.5rem);
+}
+
+.Project__links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.Project__link {
+  border: white solid 3px;
+  border-top: initial;
+  border-bottom: initial;
+  padding: 10px;
+  border-radius: 10px;
+}

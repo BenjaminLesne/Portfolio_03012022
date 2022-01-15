@@ -1,4 +1,4 @@
-import "../../styles/Hero.css";
+import "./Hero.css";
 
 const Hero = ({ language, textContent }) => {
   return (

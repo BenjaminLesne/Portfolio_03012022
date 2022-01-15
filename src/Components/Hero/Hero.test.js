@@ -9,3 +9,10 @@ test("renders french text", async () => {
   const heroTextContent = screen.getByText(/Bonjour, je suis/i);
   expect(heroTextContent).toBeInTheDocument();
 });
+
+test("renders english text", async () => {
+  render(<Hero textContent={data.hero} language={"EN"} />);
+
+  const heroTextContent = screen.getByText(/Hi, my name is/i);
+  expect(heroTextContent).toBeInTheDocument();
+});

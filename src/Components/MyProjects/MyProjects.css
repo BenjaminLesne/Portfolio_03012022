@@ -1,0 +1,59 @@
+@import url("../../styles/variables.css");
+@import url("../../styles/defaultSection.css");
+
+.MyProjects {
+  color: white;
+  background-color: var(--primary-color);
+
+  display: flex;
+  flex-direction: column;
+  padding: var(--section-padding);
+}
+
+.MyProjects__filters {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.MyProjects__filter {
+  text-align: center;
+  border-bottom: solid rgba(255, 255, 255, 0.2) 2px;
+  color: rgba(255, 255, 255, 0.2);
+  flex: 1;
+  cursor: pointer;
+  transition: var(--filter-transition-time) ease;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.MyProjects__filter.active {
+  border-bottom: solid rgba(255, 255, 255, 1) 2px;
+  color: rgba(255, 255, 255, 1);
+  transition: var(--filter-transition-time) ease-in;
+}
+
+.MyProjects__showcase-wrapper {
+  position: relative;
+}
+.MyProjects__showcase {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.MyProjects__projects {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 400px));
+  gap: 10px;
+  margin-top: 50px;
+  justify-content: center;
+
+  grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
+  grid-auto-rows: minmax(20vw, auto);
+}
+
+.MyProjects__project {
+}

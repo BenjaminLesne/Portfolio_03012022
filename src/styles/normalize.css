@@ -1,6 +1,7 @@
 /* my custom css reset then normalize.css */
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *,
 *:before,
@@ -17,7 +18,8 @@ li {
   list-style: none;
 }
 
-ul {
+ul,
+ol {
   padding: 0;
   margin: 0;
 }

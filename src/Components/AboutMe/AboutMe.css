@@ -1,5 +1,5 @@
-@import url("./defaultSection.css");
-@import url("./variables.css");
+@import url("../../styles/defaultSection.css");
+@import url("../../styles/variables.css");
 
 .AboutMe {
   color: white;
@@ -7,6 +7,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
+  /* overflow: hidden; */
 }
 
 .AboutMe__text-wrapper {

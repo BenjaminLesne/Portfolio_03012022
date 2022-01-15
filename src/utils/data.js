@@ -1,4 +1,5 @@
-//technologies
+//skills logos
+//technologies related
 import reactLogo from "../assets/logos/skills/React.svg";
 import javaScriptLogo from "../assets/logos/skills/JS.svg";
 import reduxLogo from "../assets/logos/skills/redux.svg";
@@ -11,15 +12,15 @@ import JSdocLogo from "../assets/logos/skills/JSdoc.svg";
 
 import typeScritLogo from "../assets/logos/skills/TypeScript.svg";
 
-//languages spoken
+//languages spoken related
 import UkFlag from "../assets/logos/languages/UkFlag.svg";
 import FrenchFlag from "../assets/logos/languages/FrenchFlag.svg";
 import SpanishFlag from "../assets/logos/languages/SpanishFlag.svg";
 
 const webPageTextContent = {
   headerNavItems: {
-    EN: ["about me", "skills", "my projects", "cv"],
-    FR: ["qui suis-je", "compétences", "mes projets", "cv"],
+    EN: ["skills", "my projects", "cv"],
+    FR: ["compétences", "mes projets", "cv"],
   },
   hero: {
     EN: {
@@ -150,7 +151,7 @@ const webPageTextContent = {
         EN: "all",
       },
       "react",
-      "js vanilla",
+      "javascript",
       "redux",
       "sass",
     ],
@@ -172,9 +173,56 @@ const webPageTextContent = {
         rate: 5,
         favorite: true,
         name: "ohmyfood",
-        websiteLink:
-          "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
-        sourceCodeLink:
+        websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
+        sourceCodeUrl:
+          "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
+        description: {
+          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques.",
+          EN: "Mobile-first site that lists the menus of gourmet restaurants.",
+        },
+      },
+      {
+        rate: 5,
+        favorite: true,
+        name: "ohmyfood",
+        websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
+        sourceCodeUrl:
+          "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
+        description: {
+          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques.",
+          EN: "Mobile-first site that lists the menus of gourmet restaurants.",
+        },
+      },
+      {
+        rate: 5,
+        favorite: true,
+        name: "ohmyfood",
+        websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
+        sourceCodeUrl:
+          "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
+        description: {
+          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques.",
+          EN: "Mobile-first site that lists the menus of gourmet restaurants.",
+        },
+      },
+      {
+        rate: 5,
+        favorite: true,
+        name: "ohmyfood",
+        websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
+        sourceCodeUrl:
+          "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
+        description: {
+          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques.",
+          EN: "Mobile-first site that lists the menus of gourmet restaurants.",
+        },
+      },
+      {
+        rate: 5,
+        favorite: true,
+        name: "ohmyfood",
+        websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
+        sourceCodeUrl:
           "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
         description: {
           FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques.",

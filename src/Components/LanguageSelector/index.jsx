@@ -1,7 +1,7 @@
-import UkFlag from "../assets/logos/languages/UkFlag.svg";
-import FrenchFlag from "../assets/logos/languages/FrenchFlag.svg";
+import UkFlag from "../../assets/logos/languages/UkFlag.svg";
+import FrenchFlag from "../../assets/logos/languages/FrenchFlag.svg";
 
-import "../styles/LanguageSelector.css";
+import "./LanguageSelector.css";
 
 const LanguageSelector = ({ language, textContent, setLanguage }) => {
   function handleLanguageChange(language) {

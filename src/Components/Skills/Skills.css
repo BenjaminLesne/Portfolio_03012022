@@ -1,4 +1,4 @@
-@import url("./variables.css");
+@import url("../../styles/variables.css");
 
 .Skills {
   padding: var(--section-padding);
@@ -25,18 +25,21 @@
 }
 
 .Skills__item {
-  width: 100px;
-  height: 100px;
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
   gap: 10px;
+
+  --side-length: calmp(50px, 50px, 75px);
+  width: var(--side-length);
+  height: var(--side-length);
 }
 
 .Skills__logo-wrapper {
-  height: 75px;
-  width: 75px;
+  --side-length: clamp(50px, 4vw, 75px);
+  width: var(--side-length);
+  height: var(--side-length);
 }
 
 .Skills__logo {

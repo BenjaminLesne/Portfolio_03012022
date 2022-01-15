@@ -1,4 +1,4 @@
-import "../../styles/Project.css";
+import "./Project.css";
 
 const Project = ({
   name,
@@ -10,15 +10,31 @@ const Project = ({
 }) => {
   return (
     <article className="Project">
-      {favorite ? <div className="Project__icon-favorite">FAVORITE</div> : null}
+      {favorite ? (
+        <div className="Project__icon-favorite">
+          {language === "EN" ? "favorite" : "favoris"}
+        </div>
+      ) : null}
       <h3 className="Project__name">{name}</h3>
       <p className="Project__description">{description}</p>
-      <a href={sourceCodeUrl} className="Project__githubLink">
-        {language === "EN" ? "source code" : "code source"}
-      </a>
-      <a href={websiteUrl} className="Project__websiteLink">
-        {language === "EN" ? "website" : "site web"}
-      </a>
+      <div className="Project__links">
+        <a
+          href={sourceCodeUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="Project__link"
+        >
+          {language === "EN" ? "source code" : "code source"}
+        </a>
+        <a
+          href={websiteUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="Project__link"
+        >
+          {language === "EN" ? "website" : "site web"}
+        </a>
+      </div>
     </article>
   );
 };

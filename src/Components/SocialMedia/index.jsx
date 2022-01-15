@@ -3,7 +3,7 @@ import EmailIcon from "../../assets/logos/social-media/AtIcon";
 import GithubIcon from "../../assets/logos/social-media/GithubIcon";
 import LinkedInIcon from "../../assets/logos/social-media/LinkedInIcon";
 
-import "../../styles/SocialMedia.css";
+import "./SocialMedia.css";
 
 const SocialMedia = ({ language }) => {
   const data = [

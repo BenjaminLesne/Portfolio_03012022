@@ -1,4 +1,4 @@
-import "../../styles/AboutMe.css";
+import "./AboutMe.css";
 
 import picture250W from "../../assets/pictures/me-250w.png";
 import picture500W from "../../assets/pictures/me-500w.png";

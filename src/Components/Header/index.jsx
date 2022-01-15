@@ -1,11 +1,11 @@
 import LanguageSelector from "../LanguageSelector";
 import { v4 as uuidv4 } from "uuid";
 
-import "../../styles/header.css";
+import "./header.css";
 
 const Header = ({ language, textContent, setLanguage }) => {
   return (
-    <header className="Header">
+    <header className="Header" data-testid="header">
       <LanguageSelector setLanguage={setLanguage} />
       <nav className="Header__navigation-menu">
         <ul className="Header__list-of-anchors">
