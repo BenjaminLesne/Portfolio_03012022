@@ -11,11 +11,7 @@ const MyProjects = ({ language, textContent }) => {
     e.target.classList.add("active");
   }
   return (
-    <section
-      className="MyProjects defaultSection"
-      id="my-projects"
-      data-testid="myProjects"
-    >
+    <section className="MyProjects" id="my-projects" data-testid="myProjects">
       <h2 className="MyProjects__heading section-heading">
         {textContent.heading[language]}
       </h2>

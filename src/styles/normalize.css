@@ -24,6 +24,11 @@ ol {
   margin: 0;
 }
 
+h1,
+h2 {
+  margin: 0;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document

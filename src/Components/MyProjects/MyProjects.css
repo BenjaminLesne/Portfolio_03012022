@@ -1,5 +1,4 @@
 @import url("../../styles/variables.css");
-@import url("../../styles/defaultSection.css");
 
 .MyProjects {
   color: white;
@@ -8,6 +7,9 @@
   display: flex;
   flex-direction: column;
   padding: var(--section-padding);
+
+  aspect-ratio: 2;
+  gap: 100px;
 }
 
 .MyProjects__filters {
@@ -45,15 +47,17 @@
 }
 
 .MyProjects__projects {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(150px, 400px));
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 50px;
   justify-content: center;
-
-  grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
-  grid-auto-rows: minmax(20vw, auto);
 }
 
 .MyProjects__project {
+  aspect-ratio: 1.5;
+
+  width: 25vw;
+  min-width: 270px;
+  max-width: 400px;
 }

@@ -6,32 +6,44 @@
   position: relative;
   overflow: hidden;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.Project__icon-favorite {
+.Project__icon-favorite-wrapper {
   position: absolute;
   top: 0;
   right: 0;
-  aspect-ratio: 1;
-  width: 50px;
-  background-color: blueviolet;
+
+  --square-side: 30px;
+  height: var(--square-side);
+  width: var(--square-side);
+
+  margin: 10px;
+}
+
+.Project__icon-favorite {
+  width: 100%;
+  max-height: 100%;
+  fill: #f9595fff;
 }
 
 .Project__name {
-  font-size: clamp(2rem, 2.5vw, 3rem);
+  font-size: clamp(1.5rem, 2.5vw, 3rem);
   font-weight: bold;
   letter-spacing: 2px;
   margin: 0;
 }
 
 .Project__description {
-  font-size: clamp(1rem, 0.5vw, 1.5rem);
+  font-size: clamp(0.9rem, 0.5vw, 1.5rem);
 }
 
 .Project__links {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 15%;
 }
 
 .Project__link {
