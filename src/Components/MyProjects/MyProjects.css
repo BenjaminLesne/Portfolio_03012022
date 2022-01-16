@@ -8,8 +8,8 @@
   flex-direction: column;
   padding: var(--section-padding);
 
-  aspect-ratio: 2;
   gap: 100px;
+  height: clamp(0px, 50vw, 750px);
 }
 
 .MyProjects__filters {
@@ -26,13 +26,14 @@
   flex: 1;
   cursor: pointer;
   transition: var(--filter-transition-time) ease;
+
   text-transform: uppercase;
   user-select: none;
 }
 
 .MyProjects__filter.active {
-  border-bottom: solid rgba(255, 255, 255, 1) 2px;
-  color: rgba(255, 255, 255, 1);
+  border-bottom: solid white 2px;
+  color: white;
   transition: var(--filter-transition-time) ease-in;
 }
 

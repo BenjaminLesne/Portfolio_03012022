@@ -1,8 +1,10 @@
 -section projects to build
-=>only 2 rows of projects ? we need to figure out what backgorund image I will use. + heart svg top right corner (emoji?)
-=>grid auto rows est as bon encore. Check la video de traversy?
-**********************Flex + gap + clamp + aspect ratio + flex wrap wrap
+=> ma page re render et deny les transitions sur mes filtres
+======> when it re render it render the html code from the basic page, I have to store who was active before click and who got clicked. Then, add active to previous...
+nvm it will trigger the animation and do a weird visual effects... 
+through conditional className based on index maybe?
 
 -check algorithme de recherche en ligne cf OC courses
 -check compatibilité avec chrome
 -make my CV downloadable from clicking "CV"
+-remove pictures folders in assets of me (old pictures)

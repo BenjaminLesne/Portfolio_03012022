@@ -23,12 +23,12 @@
   padding: var(--header-anchor-padding);
   border: solid 2px transparent;
   border-radius: 10px;
-  transition: 0.4s ease-in-out;
+  transition: var(--button-hover-transition);
 }
 
 .Header__anchor:hover {
   border-color: var(--primary-color);
-  transition: 0.4s ease-in-out;
+  transition: var(--button-hover-transition);
 }
 
 .Header__anchor::first-letter {

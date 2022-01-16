@@ -21,6 +21,7 @@ function App() {
         language={language}
         setLanguage={setLanguage}
       />
+
       <main>
         <Hero textContent={webPageTextContent.hero} language={language} />
         <AboutMe textContent={webPageTextContent.aboutMe} language={language} />

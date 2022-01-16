@@ -1,14 +1,47 @@
 .Project {
   border-radius: 10px;
-  background-color: red;
   height: 100%;
-  text-align: center;
   position: relative;
   overflow: hidden;
-  padding: 10px;
+}
+
+.Project__content-wrapper {
+  margin: 0;
+  height: 100%;
+}
+
+.Project__image {
+  position: absolute;
+  inset: 0px;
+  height: 100%;
+  width: 100%;
+
+  transform: scale(1);
+  transition: all 0.25s ease-in-out 0s;
+
+  opacity: 0.5;
+}
+
+.Project:hover .Project__image {
+  transform: scale(1.1);
+}
+
+.Project__information {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.45s ease-in-out 0s;
+  background-color: rgb(20, 28, 58);
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.Project:hover .Project__information {
+  opacity: 1;
 }
 
 .Project__icon-favorite-wrapper {
@@ -23,33 +56,33 @@
   margin: 10px;
 }
 
-.Project__icon-favorite {
-  width: 100%;
-  max-height: 100%;
-  fill: #f9595fff;
-}
-
 .Project__name {
-  font-size: clamp(1.5rem, 2.5vw, 3rem);
+  font-size: clamp(1.25rem, 2vw, 2rem);
   font-weight: bold;
   letter-spacing: 2px;
-  margin: 0;
+  margin: auto 0 0 0;
 }
 
 .Project__description {
-  font-size: clamp(0.9rem, 0.5vw, 1.5rem);
+  font-size: clamp(0.9rem, 0.5vw, 1.25rem);
+  margin: auto;
 }
 
 .Project__links {
   display: flex;
   justify-content: center;
   gap: 15%;
+  margin: auto 0 5% 0;
 }
 
 .Project__link {
-  border: white solid 3px;
-  border-top: initial;
-  border-bottom: initial;
+  border: transparent solid 3px;
   padding: 10px;
   border-radius: 10px;
+  transition: var(--button-hover-transition);
+}
+
+.Project__link:hover {
+  border-color: white;
+  transition: var(--button-hover-transition);
 }

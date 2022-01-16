@@ -146,10 +146,7 @@ const webPageTextContent = {
   myProjects: {
     heading: { EN: "my projects", FR: "mes projets" },
     filters: [
-      {
-        FR: "tous",
-        EN: "all",
-      },
+      { EN: "all", FR: "tous" },
       "react",
       "javascript",
       "redux",
@@ -158,7 +155,6 @@ const webPageTextContent = {
     projects: [
       {
         rate: 10,
-        favorite: true,
         name: "HRnet",
         websiteUrl:
           "https://benjaminlesne.github.io/BenjaminLesne_14_07122021/",
@@ -168,10 +164,10 @@ const webPageTextContent = {
           FR: "Refonte d'une application, gérant le registre des employés, en React (originellement en Jquery).",
           EN: "Redesign of an application, managing the employee register, in React (originally in Jquery).",
         },
+        tags: ["react", "redux"],
       },
       {
         rate: 5,
-        favorite: true,
         name: "ohmyfood",
         websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
         sourceCodeUrl:
@@ -180,54 +176,32 @@ const webPageTextContent = {
           FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques.",
           EN: "Mobile-first site that lists the menus of gourmet restaurants.",
         },
+        tags: ["sass", "javascript"],
       },
       {
-        rate: 5,
-        favorite: true,
-        name: "ohmyfood",
-        websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
+        rate: 4,
+        name: "Kasa",
+        websiteUrl:
+          "https://benjaminlesne.github.io/BenjaminLesne_11_23112021/",
         sourceCodeUrl:
-          "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
+          "https://github.com/BenjaminLesne/BenjaminLesne_11_23112021",
         description: {
-          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques.",
-          EN: "Mobile-first site that lists the menus of gourmet restaurants.",
+          FR: "Kasa est une application C2C pour la location d'appartements. ",
+          EN: "Kasa is a C2C application for renting apartments. ",
         },
+        tags: ["react"],
       },
       {
-        rate: 5,
-        favorite: true,
-        name: "ohmyfood",
-        websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
+        rate: 3,
+        name: "Les Petits Plats",
+        websiteUrl: "https://benjaminlesne.github.io/BenjaminLesne_7_31102021/",
         sourceCodeUrl:
-          "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
+          "https://github.com/BenjaminLesne/BenjaminLesne_7_31102021",
         description: {
-          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques.",
-          EN: "Mobile-first site that lists the menus of gourmet restaurants.",
+          FR: "Les Petits Plats est un moteur de recherche de recettes basé sur les ingrédients et les ustensiles que vous avez sous la main.",
+          EN: "Les Petits Plats is a recipe search engine based on the ingredients and utensils you have on hand. ",
         },
-      },
-      {
-        rate: 5,
-        favorite: true,
-        name: "ohmyfood",
-        websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
-        sourceCodeUrl:
-          "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
-        description: {
-          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques.",
-          EN: "Mobile-first site that lists the menus of gourmet restaurants.",
-        },
-      },
-      {
-        rate: 5,
-        favorite: true,
-        name: "ohmyfood",
-        websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
-        sourceCodeUrl:
-          "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
-        description: {
-          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques.",
-          EN: "Mobile-first site that lists the menus of gourmet restaurants.",
-        },
+        tags: ["sass", "javascript"],
       },
     ],
   },

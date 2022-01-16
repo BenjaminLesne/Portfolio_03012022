@@ -16,13 +16,11 @@ test("renders french text", async () => {
 
   const name = screen.getByText(/name HRnet test/i);
   const description = screen.getByText(/description HRnet test/i);
-  const favorite = screen.getByText(/favoris/i);
-  const sourceCodeLink = screen.getByText(/code source/i);
+  const sourceCodeLink = screen.getByText(/code/i);
   const websiteLink = screen.getByText(/site web/i);
 
   expect(name).toBeInTheDocument();
   expect(description).toBeInTheDocument();
-  expect(favorite).toBeInTheDocument();
   expect(sourceCodeLink).toBeInTheDocument();
   expect(websiteLink).toBeInTheDocument();
 });
