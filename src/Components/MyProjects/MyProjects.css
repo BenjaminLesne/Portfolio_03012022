@@ -3,13 +3,27 @@
 .MyProjects {
   color: white;
   background-color: var(--primary-color);
+  padding: var(--section-padding);
+  padding-bottom: 0;
+  margin-bottom: var(--project-height);
 
   display: flex;
   flex-direction: column;
-  padding: var(--section-padding);
 
-  gap: 100px;
-  height: clamp(0px, 50vw, 750px);
+  animation: smoothChangeOfHeight var(--filter-transition-time) ease-in forwards;
+}
+
+@keyframes smoothChangeOfHeight {
+  from {
+    height: var(--projects-section-previous-height);
+  }
+  to {
+    height: var(--project-section-height);
+  }
+}
+
+.MyProjects__showcase {
+  transform: translateY(calc(var(--project-height) / 2));
 }
 
 .MyProjects__filters {
@@ -32,19 +46,22 @@
 }
 
 .MyProjects__filter.active {
-  border-bottom: solid white 2px;
-  color: white;
-  transition: var(--filter-transition-time) ease-in;
+  animation: fadeIn var(--filter-transition-time) ease-in forwards;
 }
 
-.MyProjects__showcase-wrapper {
-  position: relative;
+.MyProjects__filter.fadeOut {
+  animation: fadeIn var(--filter-transition-time) ease-in forwards reverse;
 }
-.MyProjects__showcase {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+
+@keyframes fadeIn {
+  from {
+    border-bottom: solid rgba(255, 255, 255, 0.2) 2px;
+    color: rgba(255, 255, 255, 0.2);
+  }
+  to {
+    border-bottom: solid white 2px;
+    color: white;
+  }
 }
 
 .MyProjects__projects {
@@ -56,8 +73,8 @@
 }
 
 .MyProjects__project {
-  aspect-ratio: 1.5;
-
+  /* aspect-ratio: 1.5; */
+  height: var(--project-height);
   width: 25vw;
   min-width: 270px;
   max-width: 400px;

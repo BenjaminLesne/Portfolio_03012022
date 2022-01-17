@@ -25,6 +25,12 @@
   align-items: center;
   justify-content: center;
   background-color: white;
+  transition: var(--aside-transition-icon);
+}
+
+.SocialMedia__link:hover {
+  transform: translateY(-3px);
+  transition: var(--aside-transition-icon);
 }
 
 .SocialMedia__icon {

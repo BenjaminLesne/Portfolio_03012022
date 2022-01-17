@@ -17,6 +17,12 @@ import UkFlag from "../assets/logos/languages/UkFlag.svg";
 import FrenchFlag from "../assets/logos/languages/FrenchFlag.svg";
 import SpanishFlag from "../assets/logos/languages/SpanishFlag.svg";
 
+//projects screenshots
+import LesPetitsPlats from "../assets/website-screenshots/LesPetitsPlats.png";
+import HRnet from "../assets/website-screenshots/HRnet.png";
+import Kasa from "../assets/website-screenshots/Kasa.png";
+import ohmyfood from "../assets/website-screenshots/ohmyfood.png";
+
 const webPageTextContent = {
   headerNavItems: {
     EN: ["skills", "my projects", "cv"],
@@ -165,6 +171,12 @@ const webPageTextContent = {
           EN: "Redesign of an application, managing the employee register, in React (originally in Jquery).",
         },
         tags: ["react", "redux"],
+        colorMask: "#4b8382",
+        image: HRnet,
+        alt: {
+          EN: "HRnet website screenshot",
+          FR: "HRnet capture d'écran du site web",
+        },
       },
       {
         rate: 5,
@@ -177,6 +189,12 @@ const webPageTextContent = {
           EN: "Mobile-first site that lists the menus of gourmet restaurants.",
         },
         tags: ["sass", "javascript"],
+        colorMask: "#b84e3d",
+        image: ohmyfood,
+        alt: {
+          EN: "ohmyfood website screenshot",
+          FR: "ohmyfood capture d'écran du site web",
+        },
       },
       {
         rate: 4,
@@ -190,6 +208,12 @@ const webPageTextContent = {
           EN: "Kasa is a C2C application for renting apartments. ",
         },
         tags: ["react"],
+        colorMask: "#cddddd",
+        image: Kasa,
+        alt: {
+          EN: "Kasa website screenshot",
+          FR: "Kasa capture d'écran du site web",
+        },
       },
       {
         rate: 3,
@@ -202,8 +226,24 @@ const webPageTextContent = {
           EN: "Les Petits Plats is a recipe search engine based on the ingredients and utensils you have on hand. ",
         },
         tags: ["sass", "javascript"],
+        colorMask: "#c1b098",
+        image: LesPetitsPlats,
+        alt: {
+          EN: "Les Petits Plats website screenshot",
+          FR: "Les Petits Plats capture d'écran du site web",
+        },
       },
     ],
+  },
+  footer: {
+    backToTop: { EN: "back to top", FR: "retour en haut de page" },
+    copyrights: {
+      yearAndAuthor: "2020 Benjamin Lesné",
+      allRightsReserved: {
+        EN: "all rights reserved",
+        FR: "Tous droits réservés",
+      },
+    },
   },
 };
 

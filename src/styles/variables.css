@@ -5,4 +5,7 @@
   --filter-transition-time: 0.4s;
   --header-anchor-padding: 5px;
   --button-hover-transition: 0.4s ease-in-out;
+  --aside-transition-icon: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  /* --project-section-height: clamp(0px, 50vw, 750px); */
+  --project-height: calc(clamp(270px, 25vw, 400px) / 3 * 2);
 }

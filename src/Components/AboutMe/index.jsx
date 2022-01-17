@@ -64,7 +64,11 @@ const AboutMe = ({ language, textContent }) => {
         sizes="(max-width: 250px) 250px, (max-width: 500px) 500px,(max-width: 700px) 700px,
             900px"
         src={defaultPicture}
-        alt="EN:website Author Benjamin Lesne / FR:créateur du site Benjamin Lesne"
+        alt={
+          language === "EN"
+            ? "website Author Benjamin Lesne"
+            : "créateur du site Benjamin Lesne"
+        }
       />
     </section>
   );

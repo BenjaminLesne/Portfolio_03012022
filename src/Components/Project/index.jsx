@@ -8,12 +8,17 @@ const Project = ({
   websiteUrl,
   image = test,
   alt,
+  colorMask,
   language,
 }) => {
   return (
     <article className="Project">
       <figure className="Project__content-wrapper">
         <img className="Project__image" src={image} alt={alt} />
+        <div
+          className="Project__overlay"
+          style={{ backgroundColor: colorMask }}
+        ></div>
         <figcaption className="Project__information">
           <h3 className="Project__name">{name}</h3>
           <p className="Project__description">{description}</p>
@@ -36,7 +41,6 @@ const Project = ({
             </a>
           </div>
         </figcaption>
-        <div className="Project__overlay"></div>
       </figure>
     </article>
   );

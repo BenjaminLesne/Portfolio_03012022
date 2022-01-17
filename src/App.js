@@ -4,6 +4,7 @@ import SocialMedia from "./Components/SocialMedia";
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
 import MyProjects from "./Components/MyProjects";
+import Footer from "./Components/Footer";
 
 import webPageTextContent from "./utils/data";
 
@@ -31,6 +32,7 @@ function App() {
           language={language}
         />
       </main>
+      <Footer textContent={webPageTextContent.footer} language={language} />
     </>
   );
 }
