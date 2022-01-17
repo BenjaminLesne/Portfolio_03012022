@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio_03012022/static/css/main.b7d6cf7e.css",
-    "main.js": "/Portfolio_03012022/static/js/main.03262a61.js",
+    "main.css": "/Portfolio_03012022/static/css/main.8e14b7bd.css",
+    "main.js": "/Portfolio_03012022/static/js/main.ec495cac.js",
     "static/js/787.51e4b9ae.chunk.js": "/Portfolio_03012022/static/js/787.51e4b9ae.chunk.js",
     "static/media/me-900w.png": "/Portfolio_03012022/static/media/me-900w.36bd7b9bda9003005156.png",
     "static/media/Kasa.png": "/Portfolio_03012022/static/media/Kasa.b6bab3e72d2f55115c8a.png",
     "static/media/me-700w.png": "/Portfolio_03012022/static/media/me-700w.7a2b79213fe0ff3a8013.png",
     "static/media/me-500w.png": "/Portfolio_03012022/static/media/me-500w.af25183db5a0ac1bb97f.png",
+    "static/media/CV_Benjamin-Lesne_FR.pdf": "/Portfolio_03012022/static/media/CV_Benjamin-Lesne_FR.870996c52b790c4409c4.pdf",
+    "static/media/CV_Benjamin-Lesne_EN.pdf": "/Portfolio_03012022/static/media/CV_Benjamin-Lesne_EN.7b488b7aa717ae15c6af.pdf",
     "static/media/ohmyfood.png": "/Portfolio_03012022/static/media/ohmyfood.d4fee0b977b741fc68f4.png",
     "static/media/LesPetitsPlats.png": "/Portfolio_03012022/static/media/LesPetitsPlats.7737f8f0e7ba2bc65bd6.png",
     "static/media/me-250w.png": "/Portfolio_03012022/static/media/me-250w.ff29d650e46a50ee4047.png",
@@ -24,13 +26,14 @@
     "static/media/JS.svg": "/Portfolio_03012022/static/media/JS.acc4642f682cd93a4c20a8a02c0cfa21.svg",
     "index.html": "/Portfolio_03012022/index.html",
     "static/media/CSS3.svg": "/Portfolio_03012022/static/media/CSS3.32b58ba6d3b3465b8bbd116ec62e99a8.svg",
+    "static/media/check-circle-solid.svg": "/Portfolio_03012022/static/media/check-circle-solid.e1206fd79d593bdfe598.svg",
     "static/media/FrenchFlag.svg": "/Portfolio_03012022/static/media/FrenchFlag.eea1184081cb0aae75ee31cb3e6b0954.svg",
-    "main.b7d6cf7e.css.map": "/Portfolio_03012022/static/css/main.b7d6cf7e.css.map",
-    "main.03262a61.js.map": "/Portfolio_03012022/static/js/main.03262a61.js.map",
+    "main.8e14b7bd.css.map": "/Portfolio_03012022/static/css/main.8e14b7bd.css.map",
+    "main.ec495cac.js.map": "/Portfolio_03012022/static/js/main.ec495cac.js.map",
     "787.51e4b9ae.chunk.js.map": "/Portfolio_03012022/static/js/787.51e4b9ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7d6cf7e.css",
-    "static/js/main.03262a61.js"
+    "static/css/main.8e14b7bd.css",
+    "static/js/main.ec495cac.js"
   ]
 }
