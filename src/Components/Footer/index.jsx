@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-import UpArrow from "../../assets/logos/backToTop/up-arrow.jsx";
+import UpArrow from "../../assets/logos/others/up-arrow.jsx";
 // import  UpArrow from"../../assets/logos/backToTop/double-up-arrows.svg"
 
 const Footer = ({ textContent, language }) => {

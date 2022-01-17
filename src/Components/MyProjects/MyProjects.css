@@ -9,17 +9,6 @@
 
   display: flex;
   flex-direction: column;
-
-  animation: smoothChangeOfHeight var(--filter-transition-time) ease-in forwards;
-}
-
-@keyframes smoothChangeOfHeight {
-  from {
-    height: var(--projects-section-previous-height);
-  }
-  to {
-    height: var(--project-section-height);
-  }
 }
 
 .MyProjects__showcase {

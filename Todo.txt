@@ -9,10 +9,13 @@ use destructuring for object in setFilterState and Good luck Benjamin of tomorro
 -check compatibilité avec chrome
 -make my CV downloadable from clicking "CV"
 -remove pictures folders in assets of me (old pictures)
--hover font weight initial -> bold + border appearing
+-hover font weight initial -> bold + border appearing on header links
 -scroll bar color/ appearance to change ?
 -figure out projects going over the footer, how to know the distance ?
 -remove png file of backToTop
 -cleanup myprojectsSection, check states and shit about the height section
 -idem variable project section height in css
+-change mailto for "copied" behaviour with fadeout info box
+-contact section ? pour que ca soit clair, num, email etc
+
 

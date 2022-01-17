@@ -23,11 +23,25 @@ import HRnet from "../assets/website-screenshots/HRnet.png";
 import Kasa from "../assets/website-screenshots/Kasa.png";
 import ohmyfood from "../assets/website-screenshots/ohmyfood.png";
 
+//my CV
+import frenchCV from "../assets/CV/CV_Benjamin-Lesne_FR.pdf";
+import englishCV from "../assets/CV/CV_Benjamin-Lesne_EN.pdf";
+
 const webPageTextContent = {
-  headerNavItems: {
-    EN: ["skills", "my projects", "cv"],
-    FR: ["compétences", "mes projets", "cv"],
-  },
+  headerNavItems: [
+    {
+      type: "anchor",
+      linkText: { EN: "skills", FR: "compétences" },
+      href: "#skills",
+    },
+    {
+      type: "anchor",
+      linkText: { EN: "my projects", FR: "mes projets" },
+      href: "#my-projects",
+    },
+    { type: "pdf", linkText: "cv", href: { EN: englishCV, FR: frenchCV } },
+  ],
+
   hero: {
     EN: {
       firstTextPart: "hi, my name is",

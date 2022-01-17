@@ -37,7 +37,7 @@
 
 .Hero__text--big {
   color: #25364a;
-  font-size: clamp(3.5rem, 4vw, 5rem);
+  font-size: clamp(2.5rem, 3.5vw, 5rem);
   text-transform: capitalize;
   font-weight: bold;
   margin: 12px;

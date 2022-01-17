@@ -5,29 +5,10 @@ import picture500W from "../../assets/pictures/me-500w.png";
 import picture700W from "../../assets/pictures/me-700w.png";
 import defaultPicture from "../../assets/pictures/me-900w.png";
 
+import convertLinkInStringToHTML from "../../utils/functions/convertLinkInStringToHTML";
+import uppercaseFirstLetterAfterDot from "../../utils/functions/uppercaseFirstLetterAfterDot";
+
 const AboutMe = ({ language, textContent }) => {
-  function uppercaseFirstLetterAfterDot(string) {
-    const newString = string.replace(
-      /(^|\. *)([a-z])/gi,
-      function (match, separator, char) {
-        return separator + char.toUpperCase();
-      }
-    );
-
-    return newString;
-  }
-
-  function convertLinkInStringToHTML(string) {
-    const newString = string.replace(
-      /\[(.*?)\]\(([^)]+)\)/g,
-      function (match, linkText, url) {
-        return `<a href=${url}>${linkText}</a>`;
-      }
-    );
-
-    return newString;
-  }
-
   function formatString(string) {
     const stringStep1 = uppercaseFirstLetterAfterDot(string);
     const newString = convertLinkInStringToHTML(stringStep1);
@@ -60,7 +41,7 @@ const AboutMe = ({ language, textContent }) => {
       </div>
       <img
         className="AboutMe__picture"
-        srcSet={`${picture250W} 250w, .${picture500W} 500w, ${picture700W} 700w,${defaultPicture} 900w,`}
+        srcSet={`${picture250W} 250w, ${picture500W} 500w, ${picture700W} 700w,${defaultPicture} 900w,`}
         sizes="(max-width: 250px) 250px, (max-width: 500px) 500px,(max-width: 700px) 700px,
             900px"
         src={defaultPicture}

@@ -9,16 +9,28 @@ const Header = ({ language, textContent, setLanguage }) => {
       <LanguageSelector setLanguage={setLanguage} />
       <nav className="Header__navigation-menu">
         <ul className="Header__list-of-anchors">
-          {textContent[language].map((item, index) => (
-            <li key={uuidv4()}>
-              <a
-                className="Header__anchor"
-                href={"#" + textContent["EN"][index].replace(" ", "-")}
-              >
-                {item}
-              </a>
-            </li>
-          ))}
+          {textContent.map((item, index) => {
+            const pdfProps =
+              item.type === "pdf"
+                ? {
+                    rel: "noreferrer",
+                    target: "_blank",
+                  }
+                : null;
+            return (
+              <li key={uuidv4()}>
+                <a
+                  className="Header__anchor"
+                  href={item.href[language] ? item.href[language] : item.href}
+                  {...pdfProps}
+                >
+                  {item.linkText[language]
+                    ? item.linkText[language]
+                    : item.linkText}
+                </a>
+              </li>
+            );
+          })}
         </ul>
       </nav>
     </header>
