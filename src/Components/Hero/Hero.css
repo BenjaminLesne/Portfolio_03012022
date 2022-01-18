@@ -1,4 +1,4 @@
-@import url("../../styles/defaultSection.css");
+/* @import url("../../styles/defaultSection.css"); moved to app.css */
 
 .Hero {
   display: flex;

@@ -1,6 +1,7 @@
 :root {
   --primary-color: #25364a;
-  --section-padding: clamp(78px, 6%, 100vw);
+  --section-horizontal-padding: clamp(78px, 6%, 100vw);
+  --section-vertical-padding: clamp(10px, 6%, 50px);
   --picture-height: 123;
   --filter-transition-time: 0.4s;
   --header-anchor-padding: 5px;
@@ -8,4 +9,7 @@
   --aside-transition-icon: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   /* --project-section-height: clamp(0px, 50vw, 750px); */
   --project-height: calc(clamp(270px, 25vw, 400px) / 3 * 2);
+  --skills-section-big-gap: 50px;
+  --skills-section-medium-gap: 30px;
+  --about-me-font-size: clamp(0.5rem, 1.5vw, 1.75rem);
 }

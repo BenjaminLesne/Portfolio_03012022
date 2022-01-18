@@ -19,7 +19,9 @@ const AboutMe = ({ language, textContent }) => {
   return (
     <section className="AboutMe defaultSection">
       <div className="AboutMe__text-wrapper">
-        <h2 className="AboutMe__heading">{textContent[language].heading}</h2>
+        <h2 className="AboutMe__heading section-heading">
+          {textContent[language].heading}
+        </h2>
 
         <p className="AboutMe__story">
           <span
@@ -27,17 +29,15 @@ const AboutMe = ({ language, textContent }) => {
               __html: formatString(textContent[language].story),
             }}
           ></span>
-          <br />
-          <br />
-          <i
-            className="AboutMe__callToAction"
-            dangerouslySetInnerHTML={{
-              __html: convertLinkInStringToHTML(
-                textContent[language].callToAction
-              ),
-            }}
-          ></i>
         </p>
+        <i
+          className="AboutMe__callToAction"
+          dangerouslySetInnerHTML={{
+            __html: convertLinkInStringToHTML(
+              textContent[language].callToAction
+            ),
+          }}
+        ></i>
       </div>
       <img
         className="AboutMe__picture"

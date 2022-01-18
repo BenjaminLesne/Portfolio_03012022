@@ -1,4 +1,4 @@
-@import url("../../styles/defaultSection.css");
+/* @import url("../../styles/defaultSection.css"); moved to app.css */
 @import url("../../styles/variables.css");
 
 .AboutMe {
@@ -7,16 +7,13 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  /* overflow: hidden; */
 }
 
 .AboutMe__text-wrapper {
-  /* flex: 1; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: var(--section-padding);
-  padding-right: 0;
+  justify-content: space-between;
+  padding: var(--section-vertical-padding) var(--section-horizontal-padding);
 }
 
 .AboutMe__heading {
@@ -25,17 +22,30 @@
   font-size: clamp(1rem, 2.5vw, 2.5rem);
 }
 
+/* to win the css priority battle with section-heading in app.css */
+.AboutMe .AboutMe__heading {
+  margin-bottom: 0;
+}
+
 .AboutMe__story {
-  font-size: clamp(0.5rem, 2.5vw, 1.25rem);
+  font-size: var(--about-me-font-size);
+  line-height: clamp(0.75rem, calc(1.5vw * 2), calc(1.75rem * 2));
+  text-align: justify;
 }
 
 .AboutMe__callToAction {
   text-decoration: underline;
+  font-style: normal;
+  font-size: var(--about-me-font-size);
+}
+
+.AboutMe__callToAction::first-letter {
+  text-transform: uppercase;
 }
 
 .AboutMe__picture {
   height: 123%;
-  padding-right: var(--section-padding);
+  padding-right: var(--section-horizontal-padding);
 
   /* make the picture behave like bottom:0px; in its container. */
   transform: translateY(calc(100% * ((100 / var(--picture-height)) - 1)));

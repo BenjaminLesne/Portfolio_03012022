@@ -5,7 +5,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  padding-right: calc(var(--section-padding) - var(--header-anchor-padding));
+  padding-right: calc(
+    var(--section-horizontal-padding) - var(--header-anchor-padding)
+  );
 }
 
 .Header__list-of-anchors {
@@ -15,7 +17,7 @@
 
 .Header__anchor {
   display: inline-block;
-  font-weight: bold;
+  text-align: center;
   color: var(--primary-color);
   font-size: 0.95rem;
   text-transform: uppercase;
@@ -23,12 +25,12 @@
   padding: var(--header-anchor-padding);
   border: solid 2px transparent;
   border-radius: 10px;
-  transition: var(--button-hover-transition);
+  transition: border-color var(--button-hover-transition);
 }
 
 .Header__anchor:hover {
   border-color: var(--primary-color);
-  transition: var(--button-hover-transition);
+  transition: border-color var(--button-hover-transition);
 }
 
 .Header__anchor::first-letter {

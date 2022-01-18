@@ -222,7 +222,7 @@ const webPageTextContent = {
           EN: "Kasa is a C2C application for renting apartments. ",
         },
         tags: ["react"],
-        colorMask: "#cddddd",
+        colorMask: "#FFE162",
         image: Kasa,
         alt: {
           EN: "Kasa website screenshot",
@@ -240,7 +240,7 @@ const webPageTextContent = {
           EN: "Les Petits Plats is a recipe search engine based on the ingredients and utensils you have on hand. ",
         },
         tags: ["sass", "javascript"],
-        colorMask: "#c1b098",
+        colorMask: "#4caf50",
         image: LesPetitsPlats,
         alt: {
           EN: "Les Petits Plats website screenshot",

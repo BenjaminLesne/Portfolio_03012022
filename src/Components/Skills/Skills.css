@@ -1,17 +1,20 @@
 @import url("../../styles/variables.css");
 
 .Skills {
-  padding: var(--section-padding);
+  padding: var(--section-vertical-padding) var(--section-horizontal-padding);
+
+  gap: 10%;
 }
 
-.Skills__heading {
-  margin-bottom: 0;
+/* to win the css priority with .section-heading in app.css */
+.Skills .Skills__heading {
+  margin-bottom: 30px;
 }
 
 .Skills__subSections {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: var(--skills-section-medium-gap);
 }
 
 .Skills__subHeading::first-letter {
@@ -21,7 +24,7 @@
 .Skills__items {
   display: grid;
   grid-template-columns: repeat(auto-fit, 75px);
-  gap: 75px;
+  gap: var(--skills-section-medium-gap) 50px;
 }
 
 .Skills__item {

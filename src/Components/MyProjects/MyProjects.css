@@ -3,16 +3,23 @@
 .MyProjects {
   color: white;
   background-color: var(--primary-color);
-  padding: var(--section-padding);
+  padding: var(--section-vertical-padding) var(--section-horizontal-padding);
   padding-bottom: 0;
-  margin-bottom: var(--project-height);
+  margin-bottom: calc(var(--project-height) / 2);
 
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
-.MyProjects__showcase {
-  transform: translateY(calc(var(--project-height) / 2));
+.MyProjects::before {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: calc(var(--project-height) / 2);
+  content: "";
 }
 
 .MyProjects__filters {
