@@ -19,26 +19,30 @@
   text-transform: capitalize;
 }
 
-.Hero__text--small {
+/* .Hero__text--small {
   font-size: 0.75rem;
   font-weight: 400;
   text-transform: initial;
   font-size: clamp(1rem, 1.5vw, 1.5rem);
-}
+} */
 
 .Hero__text--small::first-letter {
   text-transform: uppercase;
 }
 .Hero__text--medium {
-  font-size: 1rem;
-  font-weight: bold;
-  font-size: clamp(1.5rem, 2vw, 3rem);
+  /* font-size: clamp(1.5rem, 2vw, 3rem); */
+  font-size: clamp(1rem, 2.5vw, 2.16rem);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.Hero__text--medium[lang="en"] {
+  font-size: clamp(1.12rem, 2.8vw, 2.4rem);
 }
 
 .Hero__text--big {
   color: #25364a;
-  font-size: clamp(2.5rem, 3.5vw, 5rem);
+  font-size: clamp(1.75rem, 4.35vw, 3.75rem);
   text-transform: capitalize;
   font-weight: bold;
-  margin: 12px;
 }

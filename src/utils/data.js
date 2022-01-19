@@ -17,6 +17,11 @@ import UkFlag from "../assets/logos/languages/UkFlag.svg";
 import FrenchFlag from "../assets/logos/languages/FrenchFlag.svg";
 import SpanishFlag from "../assets/logos/languages/SpanishFlag.svg";
 
+//social medias logos
+import EmailIcon from "../assets/logos/social-media/AtIcon";
+import GithubIcon from "../assets/logos/social-media/GithubIcon";
+import LinkedInIcon from "../assets/logos/social-media/LinkedInIcon";
+
 //projects screenshots
 import LesPetitsPlats from "../assets/website-screenshots/LesPetitsPlats.png";
 import HRnet from "../assets/website-screenshots/HRnet.png";
@@ -28,6 +33,32 @@ import frenchCV from "../assets/CV/CV_Benjamin-Lesne_FR.pdf";
 import englishCV from "../assets/CV/CV_Benjamin-Lesne_EN.pdf";
 
 const webPageTextContent = {
+  socialMedia: [
+    {
+      type: "email",
+      email: "benjamin.lesne@outlook.fr",
+      name: "my-email",
+      icon: <EmailIcon className="SocialMedia__icon" color="#25364a" />,
+      alt: "EN:at icon / FR:icone d'un darobase",
+    },
+    {
+      type: "website",
+
+      href: "https://github.com/BenjaminLesne",
+      icon: <GithubIcon className="SocialMedia__icon" color="#25364a" />,
+      alt: "EN:Github Icon / FR:icone de Github",
+    },
+    {
+      type: "website",
+
+      href: {
+        EN: "https://www.linkedin.com/in/benjamin-lesne/?locale=en_US",
+        FR: "https://www.linkedin.com/in/benjamin-lesne/",
+      },
+      icon: <LinkedInIcon className="SocialMedia__icon" color="#25364a" />,
+      alt: "EN:LinkedIn icon / FR:icone Linkedin",
+    },
+  ],
   headerNavItems: [
     {
       type: "anchor",
@@ -149,14 +180,14 @@ const webPageTextContent = {
             logo: UkFlag,
             name: {
               EN: "english fluent",
-              FR: "anglais parlé couramment",
+              FR: "anglais C2",
             },
           },
           {
             logo: SpanishFlag,
             name: {
-              EN: "spanish intermediate",
-              FR: "espagnol intermédiaire",
+              EN: "spanish A2",
+              FR: "espagnol A2",
             },
           },
         ],
@@ -185,7 +216,8 @@ const webPageTextContent = {
           EN: "Redesign of an application, managing the employee register, in React (originally in Jquery).",
         },
         tags: ["react", "redux"],
-        colorMask: "#4b8382",
+        // colorMask: "#4b8382",
+        colorMask: "75, 131, 130",
         image: HRnet,
         alt: {
           EN: "HRnet website screenshot",
@@ -203,7 +235,8 @@ const webPageTextContent = {
           EN: "Mobile-first site that lists the menus of gourmet restaurants.",
         },
         tags: ["sass", "javascript"],
-        colorMask: "#b84e3d",
+        // colorMask: "#b84e3d",
+        colorMask: "184, 78, 61",
         image: ohmyfood,
         alt: {
           EN: "ohmyfood website screenshot",
@@ -222,7 +255,8 @@ const webPageTextContent = {
           EN: "Kasa is a C2C application for renting apartments. ",
         },
         tags: ["react"],
-        colorMask: "#FFE162",
+        // colorMask: "#F58840",
+        colorMask: "245, 136, 64",
         image: Kasa,
         alt: {
           EN: "Kasa website screenshot",
@@ -240,7 +274,8 @@ const webPageTextContent = {
           EN: "Les Petits Plats is a recipe search engine based on the ingredients and utensils you have on hand. ",
         },
         tags: ["sass", "javascript"],
-        colorMask: "#4caf50",
+        // colorMask: "#7952B3",
+        colorMask: "121, 82, 179",
         image: LesPetitsPlats,
         alt: {
           EN: "Les Petits Plats website screenshot",
@@ -252,7 +287,7 @@ const webPageTextContent = {
   footer: {
     backToTop: { EN: "back to top", FR: "retour en haut de page" },
     copyrights: {
-      yearAndAuthor: "2020 Benjamin Lesné",
+      yearAndAuthor: "2022 Benjamin Lesné",
       allRightsReserved: {
         EN: "all rights reserved",
         FR: "Tous droits réservés",

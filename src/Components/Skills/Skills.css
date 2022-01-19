@@ -17,6 +17,10 @@
   gap: var(--skills-section-medium-gap);
 }
 
+.Skills__subHeading {
+  font-weight: 400;
+}
+
 .Skills__subHeading::first-letter {
   text-transform: uppercase;
 }
@@ -24,7 +28,8 @@
 .Skills__items {
   display: grid;
   grid-template-columns: repeat(auto-fit, 75px);
-  gap: var(--skills-section-medium-gap) 50px;
+  gap: var(--skills-section-medium-gap) clamp(50px, 4.5vw, 60px);
+  margin-left: 10px;
 }
 
 .Skills__item {
@@ -33,14 +38,10 @@
   justify-items: center;
   align-items: center;
   gap: 10px;
-
-  --side-length: calmp(50px, 50px, 75px);
-  width: var(--side-length);
-  height: var(--side-length);
 }
 
 .Skills__logo-wrapper {
-  --side-length: clamp(50px, 4vw, 75px);
+  --side-length: clamp(50px, 4vw, 60px);
   width: var(--side-length);
   height: var(--side-length);
 }
@@ -55,5 +56,6 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 0.75rem;
+  font-size: clamp(0.75rem, 1vw, 0.9rem);
   text-align: center;
 }

@@ -15,8 +15,8 @@ function App() {
   const [language, setLanguage] = useState("FR");
 
   return (
-    <>
-      <SocialMedia language={language} />
+    <div lang={language.toLocaleLowerCase()} data-testid="App">
+      <SocialMedia language={language} data={webPageTextContent.socialMedia} />
       <Header
         textContent={webPageTextContent.headerNavItems}
         language={language}
@@ -33,7 +33,7 @@ function App() {
         />
       </main>
       <Footer textContent={webPageTextContent.footer} language={language} />
-    </>
+    </div>
   );
 }
 

@@ -1,4 +1,4 @@
-import { render, screen, within } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 
 import data from "../../utils/data";
 import Skills from "./";
@@ -21,7 +21,6 @@ test("renders french text", async () => {
   data.skills.subSections.forEach((subSection) => {
     subSection.content.forEach((item) => {
       const skillName = item.name["FR"] ? item.name["FR"] : item.name;
-      const skillsSection = screen.getByTestId("skills");
       const skill = screen.getByText(skillName);
       expect(skill).toBeInTheDocument();
     });

@@ -3,7 +3,7 @@ import FrenchFlag from "../../assets/logos/languages/FrenchFlag.svg";
 
 import "./LanguageSelector.css";
 
-const LanguageSelector = ({ language, textContent, setLanguage }) => {
+const LanguageSelector = ({ setLanguage }) => {
   function handleLanguageChange(language) {
     const languageSelectorButton = document.querySelector(
       ".LanguageSelector__button"

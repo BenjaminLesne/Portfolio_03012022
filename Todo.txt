@@ -1,18 +1,10 @@
--success animation on email copy to clipboard
-
 -check compatibilité avec chrome
--remove pictures folders in assets of me (old pictures)
--scroll bar color/ appearance to change ?
--remove png file of backToTop
 -cleanup myprojectsSection, check states and shit about the height section
 -idem variable project section height in css
--change mailto for "copied" behaviour with fadeout info box
 -contact section ? pour que ca soit clair, num, email etc
--cf feuille
--remove css file default section, put it in app.css
 -mobile/tablet version
--léger blanc sur les corners des projects
--font size un peu fat sur mon grand écran
+-img loading=lazy ?
+
 
 shadwa dimension screen
 1366 x 768

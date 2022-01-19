@@ -8,14 +8,15 @@ body {
 .defaultSection {
   width: 100%;
   height: calc(100vw / 3);
-  max-height: 500px;
+  max-height: 450px;
 }
 
 .section-heading {
   text-transform: uppercase;
   font-size: clamp(1rem, 2.5vw, 2.5rem);
+  font-weight: 500;
   margin: 0;
   margin-bottom: 30px;
   letter-spacing: 5px;
-  font-weight: 500;
+  line-height: 70%;
 }

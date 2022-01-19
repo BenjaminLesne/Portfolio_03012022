@@ -63,7 +63,7 @@
 .MyProjects__projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   margin-top: 50px;
   justify-content: center;
 }

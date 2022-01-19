@@ -1,12 +1,11 @@
 import "./Project.css";
-import test from "../../assets/pictures/me-250w.png";
 
 const Project = ({
   name,
   description,
   sourceCodeUrl,
   websiteUrl,
-  image = test,
+  image,
   alt,
   colorMask,
   language,
@@ -17,10 +16,16 @@ const Project = ({
         <img className="Project__image" src={image} alt={alt} />
         <div
           className="Project__overlay"
-          style={{ backgroundColor: colorMask }}
-        ></div>
+          style={{ backgroundColor: `rgba(${colorMask}, 0.8)` }}
+        >
+          <h3
+            className="Project__name"
+            // style={{ backgroundColor: `rgba(${colorMask})` }}
+          >
+            {name}
+          </h3>
+        </div>
         <figcaption className="Project__information">
-          <h3 className="Project__name">{name}</h3>
           <p className="Project__description">{description}</p>
           <div className="Project__links">
             <a

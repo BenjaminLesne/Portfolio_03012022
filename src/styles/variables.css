@@ -11,5 +11,5 @@
   --project-height: calc(clamp(270px, 25vw, 400px) / 3 * 2);
   --skills-section-big-gap: 50px;
   --skills-section-medium-gap: 30px;
-  --about-me-font-size: clamp(0.5rem, 1.5vw, 1.75rem);
+  --about-me-font-size: clamp(0.5rem, 1.5vw, 1.35rem);
 }
