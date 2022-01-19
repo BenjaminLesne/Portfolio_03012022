@@ -222,7 +222,7 @@ const webPageTextContent = {
         },
         tags: ["react", "redux"],
         // colorMask: "#4b8382",37, 145, 145
-        colorMask: "41,144, 139",
+        colorMask: "75, 131, 130",
         image: HRnet,
         alt: {
           EN: "HRnet website screenshot",
@@ -241,7 +241,7 @@ const webPageTextContent = {
         },
         tags: ["sass", "javascript"],
         // colorMask: "#b84e3d",
-        colorMask: "54, 191, 184",
+        colorMask: "184, 78, 61",
         image: ohmyfood,
         alt: {
           EN: "ohmyfood website screenshot",
@@ -261,7 +261,7 @@ const webPageTextContent = {
         },
         tags: ["react"],
         // colorMask: "#F58840",
-        colorMask: "96, 210, 204",
+        colorMask: "104, 103, 172",
         image: Kasa,
         alt: {
           EN: "Kasa website screenshot",
@@ -280,7 +280,7 @@ const webPageTextContent = {
         },
         tags: ["sass", "javascript"],
         // colorMask: "#7952B3",
-        colorMask: "144, 224, 220",
+        colorMask: "17, 70, 143",
         image: LesPetitsPlats,
         alt: {
           EN: "Les Petits Plats website screenshot",

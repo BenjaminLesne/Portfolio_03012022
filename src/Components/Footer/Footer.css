@@ -38,6 +38,7 @@
   align-items: center;
   gap: 10px;
   fill: var(--primary-color);
+  font-style: normal;
 }
 
 .Footer__contact > button {

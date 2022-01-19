@@ -11,11 +11,6 @@ const Footer = ({ textContent, language }) => {
 
   return (
     <footer className="Footer">
-      <button className="Footer__back-to-top" onClick={() => goBackToTop()}>
-        <UpArrow className="Footer__up-arrow" />
-        <span>{textContent.backToTop[language]}</span>
-      </button>
-
       <address id="contact" className="Footer__contact">
         <EmailButton
           languageSelected={language}
@@ -24,6 +19,11 @@ const Footer = ({ textContent, language }) => {
         />
         <span>benjamin.lesne@outlook.fr</span>
       </address>
+      <button className="Footer__back-to-top" onClick={() => goBackToTop()}>
+        <UpArrow className="Footer__up-arrow" />
+        <span>{textContent.backToTop[language]}</span>
+      </button>
+
       <small className="Footer__copyrights">
         ©{textContent.copyrights.yearAndAuthor}
         <span className="Footer__all-rights-reserved">
