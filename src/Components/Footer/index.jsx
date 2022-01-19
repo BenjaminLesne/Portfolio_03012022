@@ -1,6 +1,7 @@
 import "./Footer.css";
 
 import UpArrow from "../../assets/logos/others/up-arrow.jsx";
+import EmailButton from "../EmailButton";
 // import  UpArrow from"../../assets/logos/backToTop/double-up-arrows.svg"
 
 const Footer = ({ textContent, language }) => {
@@ -15,9 +16,14 @@ const Footer = ({ textContent, language }) => {
         <span>{textContent.backToTop[language]}</span>
       </button>
 
-      <ul id="contact">
-        <li>benjamin.lesne@outlook.fr</li>
-      </ul>
+      <address id="contact" className="Footer__contact">
+        <EmailButton
+          languageSelected={language}
+          data={textContent.contact}
+          hreflang={language.toLowerCase()}
+        />
+        <span>benjamin.lesne@outlook.fr</span>
+      </address>
       <small className="Footer__copyrights">
         ©{textContent.copyrights.yearAndAuthor}
         <span className="Footer__all-rights-reserved">

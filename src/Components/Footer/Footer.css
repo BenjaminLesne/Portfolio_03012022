@@ -2,12 +2,12 @@
 
 .Footer {
   border-top: 1px solid;
-
+  padding: 20px;
+  padding-bottom: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 150px;
   gap: 30px;
 }
 
@@ -30,6 +30,18 @@
   height: var(--dimension);
   margin: auto;
   fill: var(--primary-color);
+}
+
+.Footer__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  fill: var(--primary-color);
+}
+
+.Footer__contact > button {
+  color: var(--primary-color);
 }
 
 .Footer__copyrights {

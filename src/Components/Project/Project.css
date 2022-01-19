@@ -43,7 +43,7 @@
 }
 
 .Project__name {
-  font-size: clamp(1.25rem, 3vw, 4rem);
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
   font-weight: bold;
   letter-spacing: 2px;
   padding: 10px;

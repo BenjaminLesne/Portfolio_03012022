@@ -222,7 +222,7 @@ const webPageTextContent = {
         },
         tags: ["react", "redux"],
         // colorMask: "#4b8382",37, 145, 145
-        colorMask: "77, 154, 159",
+        colorMask: "41,144, 139",
         image: HRnet,
         alt: {
           EN: "HRnet website screenshot",
@@ -241,7 +241,7 @@ const webPageTextContent = {
         },
         tags: ["sass", "javascript"],
         // colorMask: "#b84e3d",
-        colorMask: "59, 121, 123",
+        colorMask: "54, 191, 184",
         image: ohmyfood,
         alt: {
           EN: "ohmyfood website screenshot",
@@ -261,7 +261,7 @@ const webPageTextContent = {
         },
         tags: ["react"],
         // colorMask: "#F58840",
-        colorMask: "37, 145, 145",
+        colorMask: "96, 210, 204",
         image: Kasa,
         alt: {
           EN: "Kasa website screenshot",
@@ -280,7 +280,7 @@ const webPageTextContent = {
         },
         tags: ["sass", "javascript"],
         // colorMask: "#7952B3",
-        colorMask: "136, 193, 160",
+        colorMask: "144, 224, 220",
         image: LesPetitsPlats,
         alt: {
           EN: "Les Petits Plats website screenshot",
@@ -291,6 +291,13 @@ const webPageTextContent = {
   },
   footer: {
     backToTop: { EN: "back to top", FR: "retour en haut de page" },
+    contact: {
+      type: "email",
+      email: "benjamin.lesne@outlook.fr",
+      name: "my-email",
+      icon: <EmailIcon className="SocialMedia__icon" color="#25364a" />,
+      alt: "EN:at icon / FR:icone d'un darobase",
+    },
     copyrights: {
       yearAndAuthor: "2022 Benjamin Lesné",
       allRightsReserved: {
