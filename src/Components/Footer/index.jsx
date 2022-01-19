@@ -15,6 +15,9 @@ const Footer = ({ textContent, language }) => {
         <span>{textContent.backToTop[language]}</span>
       </button>
 
+      <ul id="contact">
+        <li>benjamin.lesne@outlook.fr</li>
+      </ul>
       <small className="Footer__copyrights">
         ©{textContent.copyrights.yearAndAuthor}
         <span className="Footer__all-rights-reserved">

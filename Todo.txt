@@ -1,12 +1,35 @@
+-check whatsapp
+-change colors to shades of blues
+
 -check compatibilité avec chrome
 -cleanup myprojectsSection, check states and shit about the height section
 -idem variable project section height in css
 -contact section ? pour que ca soit clair, num, email etc
 -mobile/tablet version
 -img loading=lazy ?
+-CHECK IF SMOOTH FILTER HEIGHT CHANGE CAN BE DONE WITH CSSTRANSITIONGROUP
 
 
 shadwa dimension screen
 1366 x 768
+
+4d9a9f
+rgb(77, 154, 159)
+77, 154, 159
+
+3b797b
+rgb(59, 121, 123)
+59, 121, 123
+
+6cad9b
+rgb(108, 173, 155)
+108, 173, 155
+
+88c1a0
+rgb(136, 193, 160)
+
+black
+
+0,0,0
 
 

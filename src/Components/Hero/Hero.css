@@ -31,18 +31,18 @@
 }
 .Hero__text--medium {
   /* font-size: clamp(1.5rem, 2vw, 3rem); */
-  font-size: clamp(1rem, 2.5vw, 2.16rem);
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
   font-weight: 500;
   text-transform: uppercase;
 }
 
 .Hero__text--medium[lang="en"] {
-  font-size: clamp(1.12rem, 2.8vw, 2.4rem);
+  font-size: clamp(1.12rem, 2.8vw, 1.67rem);
 }
 
 .Hero__text--big {
   color: #25364a;
-  font-size: clamp(1.75rem, 4.35vw, 3.75rem);
+  font-size: clamp(1.75rem, 4.35vw, 2.6rem);
   text-transform: capitalize;
   font-weight: bold;
 }

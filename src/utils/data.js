@@ -70,6 +70,11 @@ const webPageTextContent = {
       linkText: { EN: "my projects", FR: "mes projets" },
       href: "#my-projects",
     },
+    {
+      type: "anchor",
+      linkText: "contact",
+      href: "#contact",
+    },
     { type: "pdf", linkText: "cv", href: { EN: englishCV, FR: frenchCV } },
   ],
 
@@ -216,8 +221,8 @@ const webPageTextContent = {
           EN: "Redesign of an application, managing the employee register, in React (originally in Jquery).",
         },
         tags: ["react", "redux"],
-        // colorMask: "#4b8382",
-        colorMask: "75, 131, 130",
+        // colorMask: "#4b8382",37, 145, 145
+        colorMask: "77, 154, 159",
         image: HRnet,
         alt: {
           EN: "HRnet website screenshot",
@@ -236,7 +241,7 @@ const webPageTextContent = {
         },
         tags: ["sass", "javascript"],
         // colorMask: "#b84e3d",
-        colorMask: "184, 78, 61",
+        colorMask: "59, 121, 123",
         image: ohmyfood,
         alt: {
           EN: "ohmyfood website screenshot",
@@ -256,7 +261,7 @@ const webPageTextContent = {
         },
         tags: ["react"],
         // colorMask: "#F58840",
-        colorMask: "245, 136, 64",
+        colorMask: "37, 145, 145",
         image: Kasa,
         alt: {
           EN: "Kasa website screenshot",
@@ -275,7 +280,7 @@ const webPageTextContent = {
         },
         tags: ["sass", "javascript"],
         // colorMask: "#7952B3",
-        colorMask: "121, 82, 179",
+        colorMask: "136, 193, 160",
         image: LesPetitsPlats,
         alt: {
           EN: "Les Petits Plats website screenshot",

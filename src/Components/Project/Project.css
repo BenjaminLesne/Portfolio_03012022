@@ -46,8 +46,8 @@
   font-size: clamp(1.25rem, 3vw, 4rem);
   font-weight: bold;
   letter-spacing: 2px;
-  /* padding: 10px;
-  width: 100%; */
+  padding: 10px;
+  width: 100%;
   text-align: center;
 }
 
@@ -97,12 +97,11 @@
 }
 
 .Project__link {
-  border: white solid 3px;
+  border: white solid 2px;
   padding: 10px;
   border-radius: 10px;
   transition: var(--button-hover-transition);
   background-color: transparent;
-  font-weight: bold;
 }
 
 .Project__link:hover {
