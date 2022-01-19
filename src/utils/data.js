@@ -241,7 +241,7 @@ const webPageTextContent = {
         },
         tags: ["sass", "javascript"],
         // colorMask: "#b84e3d",
-        colorMask: "184, 78, 61",
+        colorMask: "157, 83, 83",
         image: ohmyfood,
         alt: {
           EN: "ohmyfood website screenshot",
@@ -260,8 +260,8 @@ const webPageTextContent = {
           EN: "Kasa is a C2C application for renting apartments. ",
         },
         tags: ["react"],
-        // colorMask: "#F58840",
-        colorMask: "104, 103, 172",
+        // colorMask: "#F58840",104, 103, 172
+        colorMask: "187, 135, 96",
         image: Kasa,
         alt: {
           EN: "Kasa website screenshot",
@@ -280,7 +280,7 @@ const webPageTextContent = {
         },
         tags: ["sass", "javascript"],
         // colorMask: "#7952B3",
-        colorMask: "17, 70, 143",
+        colorMask: "50, 82, 136",
         image: LesPetitsPlats,
         alt: {
           EN: "Les Petits Plats website screenshot",
