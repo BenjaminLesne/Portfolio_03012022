@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_03012022/static/css/main.f739607f.css",
-    "main.js": "/Portfolio_03012022/static/js/main.eef9a44c.js",
+    "main.css": "/Portfolio_03012022/static/css/main.fea40f4b.css",
+    "main.js": "/Portfolio_03012022/static/js/main.f3f87f17.js",
     "static/js/787.51e4b9ae.chunk.js": "/Portfolio_03012022/static/js/787.51e4b9ae.chunk.js",
     "static/media/me-900w.png": "/Portfolio_03012022/static/media/me-900w.36bd7b9bda9003005156.png",
     "static/media/Kasa.png": "/Portfolio_03012022/static/media/Kasa.b6bab3e72d2f55115c8a.png",
@@ -28,12 +28,12 @@
     "static/media/CSS3.svg": "/Portfolio_03012022/static/media/CSS3.32b58ba6d3b3465b8bbd116ec62e99a8.svg",
     "static/media/check-circle-solid.svg": "/Portfolio_03012022/static/media/check-circle-solid.5199e832201934df7634.svg",
     "static/media/FrenchFlag.svg": "/Portfolio_03012022/static/media/FrenchFlag.eea1184081cb0aae75ee31cb3e6b0954.svg",
-    "main.f739607f.css.map": "/Portfolio_03012022/static/css/main.f739607f.css.map",
-    "main.eef9a44c.js.map": "/Portfolio_03012022/static/js/main.eef9a44c.js.map",
+    "main.fea40f4b.css.map": "/Portfolio_03012022/static/css/main.fea40f4b.css.map",
+    "main.f3f87f17.js.map": "/Portfolio_03012022/static/js/main.f3f87f17.js.map",
     "787.51e4b9ae.chunk.js.map": "/Portfolio_03012022/static/js/787.51e4b9ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f739607f.css",
-    "static/js/main.eef9a44c.js"
+    "static/css/main.fea40f4b.css",
+    "static/js/main.f3f87f17.js"
   ]
 }
