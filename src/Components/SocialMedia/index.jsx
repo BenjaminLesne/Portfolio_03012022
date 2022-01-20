@@ -19,6 +19,7 @@ const SocialMedia = ({ language, data }) => {
                   languageSelected={language}
                   data={linkData}
                   hreflang={hreflangValue}
+                  className="SocialMedia"
                 />
               </React.Fragment>
             );

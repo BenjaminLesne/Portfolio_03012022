@@ -12,6 +12,14 @@
   position: relative;
 }
 
+.MyProjects.smooth-height-transition::before {
+  transition: 2s ease-in-out;
+}
+
+.MyProjects.smooth-height-transition-enter-active::before {
+  transition: 2s ease-in-out;
+}
+
 .MyProjects::before {
   background-color: white;
   position: absolute;

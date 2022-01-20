@@ -2,7 +2,7 @@ import { CSSTransition } from "react-transition-group";
 import React, { useState } from "react";
 import "./";
 
-const EmailButton = ({ languageSelected, data, hreflang }) => {
+const EmailButton = ({ languageSelected, data, hreflang, className }) => {
   const [visibility, setVisibility] = useState("hidden");
 
   const dataInfoValue =
@@ -26,7 +26,7 @@ const EmailButton = ({ languageSelected, data, hreflang }) => {
       timeout={2000}
     >
       <button
-        className="SocialMedia__link SocialMedia__link--email"
+        className={`${className}__link ${className}__link--email`}
         hrefLang={hreflang}
         onClick={() => handleCopyToClipBoard(data.email)}
         data-info={dataInfoValue}

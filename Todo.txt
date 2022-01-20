@@ -1,4 +1,8 @@
--check whatsapp
+-projects animation:
+=>when dbclick on filter its not active visually.
+==> use cssTransitiongroup instead manually do the animation blabla
+
+-check whatsapp ELEL A ENCORE CHANGER DES TRUC HAHA
 -change colors to shades of blues
 
 -check compatibilité avec chrome

@@ -4,6 +4,7 @@ import SocialMedia from "./Components/SocialMedia";
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
 import MyProjects from "./Components/MyProjects";
+import ContactMe from "./Components/ContactMe";
 import Footer from "./Components/Footer";
 
 import webPageTextContent from "./utils/data";
@@ -29,6 +30,10 @@ function App() {
         <Skills textContent={webPageTextContent.skills} language={language} />
         <MyProjects
           textContent={webPageTextContent.myProjects}
+          language={language}
+        />
+        <ContactMe
+          textContent={webPageTextContent.contactMe}
           language={language}
         />
       </main>

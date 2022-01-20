@@ -22,6 +22,9 @@ import EmailIcon from "../assets/logos/social-media/AtIcon";
 import GithubIcon from "../assets/logos/social-media/GithubIcon";
 import LinkedInIcon from "../assets/logos/social-media/LinkedInIcon";
 
+//contact logo
+import PhoneIcon from "../assets/logos/others/PhoneIcon";
+
 //projects screenshots
 import LesPetitsPlats from "../assets/website-screenshots/LesPetitsPlats.png";
 import HRnet from "../assets/website-screenshots/HRnet.png";
@@ -72,8 +75,8 @@ const webPageTextContent = {
     },
     {
       type: "anchor",
-      linkText: "contact",
-      href: "#contact",
+      linkText: { EN: "contact me", FR: "me contacter" },
+      href: "#contact-me",
     },
     { type: "pdf", linkText: "cv", href: { EN: englishCV, FR: frenchCV } },
   ],
@@ -288,6 +291,21 @@ const webPageTextContent = {
         },
       },
     ],
+  },
+  contactMe: {
+    heading: { EN: "contact me", FR: "me contacter" },
+    email: "benjamin.lesne@outlook.fr",
+    emailButton: {
+      name: "email",
+      email: "benjamin.lesne@outlook.fr",
+      icon: <EmailIcon className="ContactMe__icon" color="#25364a" />,
+    },
+    phoneButton: <PhoneIcon className="ContactMe__icon" color="#25364a" />,
+    number: {
+      EN: "get my number in my CV here",
+      FR: "obtenez mon numéro dans mon CV ici ",
+    },
+    linkToCV: { EN: englishCV, FR: frenchCV },
   },
   footer: {
     backToTop: { EN: "back to top", FR: "retour en haut de page" },

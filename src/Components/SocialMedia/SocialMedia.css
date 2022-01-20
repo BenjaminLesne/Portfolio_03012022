@@ -28,6 +28,7 @@
   transition: var(--aside-transition-icon);
   position: relative;
   cursor: pointer;
+  color: var(--primary-color);
 }
 
 .SocialMedia__link:hover {
