@@ -1,5 +1,4 @@
-//skills logos
-//technologies related
+//technologies related logos
 import reactLogo from "../assets/logos/skills/React.svg";
 import javaScriptLogo from "../assets/logos/skills/JS.svg";
 import reduxLogo from "../assets/logos/skills/redux.svg";
@@ -31,7 +30,7 @@ import HRnet from "../assets/website-screenshots/HRnet.png";
 import Kasa from "../assets/website-screenshots/Kasa.png";
 import ohmyfood from "../assets/website-screenshots/ohmyfood.png";
 
-//my CV
+//my CVs
 import frenchCV from "../assets/CV/CV_Benjamin-Lesne_FR.pdf";
 import englishCV from "../assets/CV/CV_Benjamin-Lesne_EN.pdf";
 
@@ -42,14 +41,16 @@ const webPageTextContent = {
       email: "benjamin.lesne@outlook.fr",
       name: "my-email",
       icon: <EmailIcon className="SocialMedia__icon" color="#25364a" />,
-      alt: "EN:at icon / FR:icone d'un darobase",
+      dataInfo: {
+        EN: "click to copy my email",
+        FR: "cliquer, copie mon email",
+      },
     },
     {
       type: "website",
 
       href: "https://github.com/BenjaminLesne",
       icon: <GithubIcon className="SocialMedia__icon" color="#25364a" />,
-      alt: "EN:Github Icon / FR:icone de Github",
     },
     {
       type: "website",
@@ -59,7 +60,6 @@ const webPageTextContent = {
         FR: "https://www.linkedin.com/in/benjamin-lesne/",
       },
       icon: <LinkedInIcon className="SocialMedia__icon" color="#25364a" />,
-      alt: "EN:LinkedIn icon / FR:icone Linkedin",
     },
   ],
   headerNavItems: [
@@ -220,11 +220,10 @@ const webPageTextContent = {
         sourceCodeUrl:
           "https://github.com/BenjaminLesne/BenjaminLesne_14_07122021",
         description: {
-          FR: "Refonte d'une application, gérant le registre des employés, en React (originellement en Jquery).",
-          EN: "Redesign of an application, managing the employee register, in React (originally in Jquery).",
+          FR: "Refonte d'une application, gérant le registre des employés, en React (originellement en Jquery) - Projet OpenClassrooms.",
+          EN: "Redesign of an application, managing the employee register, in React (originally in Jquery) - OpenClassrooms' Project.",
         },
         tags: ["react", "redux"],
-        // colorMask: "#4b8382",37, 145, 145
         colorMask: "75, 131, 130",
         image: HRnet,
         alt: {
@@ -239,11 +238,10 @@ const webPageTextContent = {
         sourceCodeUrl:
           "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
         description: {
-          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques.",
-          EN: "Mobile-first site that lists the menus of gourmet restaurants.",
+          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques - Projet OpenClassrooms.",
+          EN: "Mobile-first site that lists the menus of gourmet restaurants - OpenClassrooms' Project.",
         },
         tags: ["sass", "javascript"],
-        // colorMask: "#b84e3d",
         colorMask: "157, 83, 83",
         image: ohmyfood,
         alt: {
@@ -259,11 +257,10 @@ const webPageTextContent = {
         sourceCodeUrl:
           "https://github.com/BenjaminLesne/BenjaminLesne_11_23112021",
         description: {
-          FR: "Kasa est une application C2C pour la location d'appartements. ",
-          EN: "Kasa is a C2C application for renting apartments. ",
+          FR: "Kasa est une application C2C pour la location d'appartements - Projet OpenClassrooms.",
+          EN: "Kasa is a C2C application for renting apartments - OpenClassrooms' Project.",
         },
         tags: ["react"],
-        // colorMask: "#F58840",104, 103, 172
         colorMask: "187, 135, 96",
         image: Kasa,
         alt: {
@@ -278,11 +275,10 @@ const webPageTextContent = {
         sourceCodeUrl:
           "https://github.com/BenjaminLesne/BenjaminLesne_7_31102021",
         description: {
-          FR: "Les Petits Plats est un moteur de recherche de recettes basé sur les ingrédients et les ustensiles que vous avez sous la main.",
-          EN: "Les Petits Plats is a recipe search engine based on the ingredients and utensils you have on hand. ",
+          FR: "Moteur de recherche de recettes basé sur les ingrédients et les ustensiles que vous avez sous la main - Projet OpenClassrooms.",
+          EN: "Recipe search engine based on the ingredients and utensils you have on hand - OpenClassrooms' Project.",
         },
         tags: ["sass", "javascript"],
-        // colorMask: "#7952B3",
         colorMask: "50, 82, 136",
         image: LesPetitsPlats,
         alt: {

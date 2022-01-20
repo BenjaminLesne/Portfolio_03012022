@@ -5,9 +5,6 @@ import "./";
 const EmailButton = ({ languageSelected, data, hreflang, className }) => {
   const [visibility, setVisibility] = useState("hidden");
 
-  const dataInfoValue =
-    languageSelected === "EN" ? "click to copy" : "cliquez pour copier";
-
   async function handleCopyToClipBoard(string) {
     //add to clipboard
     navigator.clipboard.writeText(string);
@@ -18,6 +15,8 @@ const EmailButton = ({ languageSelected, data, hreflang, className }) => {
       setVisibility("visible");
     }, 0);
   }
+
+  const dataInfoValue = data.dataInfo ? data.dataInfo[languageSelected] : null;
 
   return (
     <CSSTransition

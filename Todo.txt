@@ -4,6 +4,8 @@
 => make somehting smoother genre blurry into net ?
 =>img loading=lazy ?
 
+-should i add info bubble on github/linked icon in aside bar? user may not know those icons
+
 -fill my readme, the about the depository section as well
 -remove [en cours] in read me
 
