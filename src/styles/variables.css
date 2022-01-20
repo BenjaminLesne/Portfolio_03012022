@@ -1,6 +1,7 @@
 :root {
   --primary-color: #25364a;
-  --section-horizontal-padding: clamp(78px, 6%, 100vw);
+  /* --section-horizontal-padding: clamp(78px, 6%, 100vw); */
+  --section-horizontal-padding: clamp(20px, 6%, 100vw);
   --section-vertical-padding: clamp(10px, 6%, 50px);
   --picture-height: 123;
   --filter-transition-time: 0.4s;

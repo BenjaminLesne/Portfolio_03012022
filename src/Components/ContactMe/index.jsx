@@ -4,7 +4,7 @@ import PhoneIcon from "../../assets/logos/others/PhoneIcon";
 
 const ContactMe = ({ textContent, language }) => {
   return (
-    <section className="ContactMe defaultSection" id="contact-me">
+    <section className="ContactMe" id="contact-me">
       <div className="ContactMe__content">
         <h2 className="ContactMe__heading section-heading">
           {textContent.heading[language]}

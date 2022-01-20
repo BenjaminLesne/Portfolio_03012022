@@ -12,6 +12,7 @@
 -mobile/tablet version
 -img loading=lazy ?
 -CHECK IF SMOOTH FILTER HEIGHT CHANGE CAN BE DONE WITH CSSTRANSITIONGROUP
+-fill my readme, the about the depository section as well
 
 
 shadwa dimension screen

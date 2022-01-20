@@ -10,7 +10,6 @@ function handleFilterOnClick(
   animationVariables
 ) {
   const projectsSection = document.getElementById("my-projects");
-
   const newPreviousHeight = projectsSection.scrollHeight;
 
   filterManager(
@@ -23,8 +22,6 @@ function handleFilterOnClick(
     projectsSection.style.height = "auto";
 
     const newCurrentHeight = projectsSection.scrollHeight;
-    console.log("newCurrentHeight");
-    console.log(newCurrentHeight);
 
     //i don't know why, if previous = current, the height is set to auto inline.
     //somehow this condition prevent it

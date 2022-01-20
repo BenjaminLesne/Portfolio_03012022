@@ -32,11 +32,11 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: fit-content;
+
   text-transform: uppercase;
   color: var(--primary-color);
   font-weight: bold;
-  width: 100%;
+
   padding-top: 10px;
   margin-top: auto;
   margin-bottom: 30px;
