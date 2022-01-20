@@ -1,8 +1,12 @@
 -check compatibilité avec chrome
 -mobile/tablet version
+=>chargement image trop longue? 
+=> make somehting smoother genre blurry into net ?
 =>img loading=lazy ?
+
 -fill my readme, the about the depository section as well
 -remove [en cours] in read me
+
 
 
 
