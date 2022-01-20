@@ -1,27 +1,9 @@
--projects animation:
-=>when dbclick on filter its not active visually.
-==> use cssTransitiongroup instead manually do the animation blabla
-
--check whatsapp ELEL A ENCORE CHANGER DES TRUC HAHA
--change colors to shades of blues
-
 -check compatibilité avec chrome
--cleanup myprojectsSection, check states and shit about the height section
--idem variable project section height in css
--contact section ? pour que ca soit clair, num, email etc
 -mobile/tablet version
--img loading=lazy ?
--CHECK IF SMOOTH FILTER HEIGHT CHANGE CAN BE DONE WITH CSSTRANSITIONGROUP
+=>img loading=lazy ?
 -fill my readme, the about the depository section as well
+-remove [en cours] in read me
 
 
-shadwa dimension screen
-1366 x 768
-
-21h44
-75, 131, 130
-184, 78, 61
-187, 135, 96
-50, 82, 136
 
 

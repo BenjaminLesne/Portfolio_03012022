@@ -12,7 +12,7 @@ const EmailButton = ({ languageSelected, data, hreflang, className }) => {
     //add to clipboard
     navigator.clipboard.writeText(string);
 
-    //handle success icon animation
+    //trigger success icon animation
     setVisibility("hidden");
     setTimeout(() => {
       setVisibility("visible");
