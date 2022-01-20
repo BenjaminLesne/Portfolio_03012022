@@ -3,6 +3,9 @@
 .Hero {
   display: flex;
   align-items: center;
+  max-height: 320px;
+  width: 100%;
+  height: calc(100vw / 3);
 }
 
 .Hero__text-wrapper {

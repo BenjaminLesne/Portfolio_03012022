@@ -2,7 +2,7 @@ import "./Hero.css";
 
 const Hero = ({ language, textContent }) => {
   return (
-    <div className="Hero defaultSection">
+    <div className="Hero">
       <p className="Hero__text-wrapper">
         <span className="Hero__text Hero__text--big">
           {textContent[language].secondTextPart}
