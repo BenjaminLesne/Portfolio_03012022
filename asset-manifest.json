@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio_03012022/static/css/main.6697a031.css",
-    "main.js": "/Portfolio_03012022/static/js/main.fea67fa9.js",
+    "main.js": "/Portfolio_03012022/static/js/main.36083868.js",
     "static/js/787.51e4b9ae.chunk.js": "/Portfolio_03012022/static/js/787.51e4b9ae.chunk.js",
+    "static/media/CV_Benjamin-Lesne_FR.pdf": "/Portfolio_03012022/static/media/CV_Benjamin-Lesne_FR.34ce04589babd8807389.pdf",
+    "static/media/CV_Benjamin-Lesne_EN.pdf": "/Portfolio_03012022/static/media/CV_Benjamin-Lesne_EN.5632f8985b079d14fbd0.pdf",
     "static/media/me-900w.png": "/Portfolio_03012022/static/media/me-900w.36bd7b9bda9003005156.png",
     "static/media/Kasa.png": "/Portfolio_03012022/static/media/Kasa.b6bab3e72d2f55115c8a.png",
     "static/media/me-700w.png": "/Portfolio_03012022/static/media/me-700w.7a2b79213fe0ff3a8013.png",
     "static/media/me-500w.png": "/Portfolio_03012022/static/media/me-500w.af25183db5a0ac1bb97f.png",
-    "static/media/CV_Benjamin-Lesne_FR.pdf": "/Portfolio_03012022/static/media/CV_Benjamin-Lesne_FR.870996c52b790c4409c4.pdf",
-    "static/media/CV_Benjamin-Lesne_EN.pdf": "/Portfolio_03012022/static/media/CV_Benjamin-Lesne_EN.7b488b7aa717ae15c6af.pdf",
     "static/media/ohmyfood.png": "/Portfolio_03012022/static/media/ohmyfood.d4fee0b977b741fc68f4.png",
     "static/media/LesPetitsPlats.png": "/Portfolio_03012022/static/media/LesPetitsPlats.7737f8f0e7ba2bc65bd6.png",
     "static/media/me-250w.png": "/Portfolio_03012022/static/media/me-250w.ff29d650e46a50ee4047.png",
@@ -29,11 +29,11 @@
     "static/media/check-circle-solid.svg": "/Portfolio_03012022/static/media/check-circle-solid.5199e832201934df7634.svg",
     "static/media/FrenchFlag.svg": "/Portfolio_03012022/static/media/FrenchFlag.eea1184081cb0aae75ee31cb3e6b0954.svg",
     "main.6697a031.css.map": "/Portfolio_03012022/static/css/main.6697a031.css.map",
-    "main.fea67fa9.js.map": "/Portfolio_03012022/static/js/main.fea67fa9.js.map",
+    "main.36083868.js.map": "/Portfolio_03012022/static/js/main.36083868.js.map",
     "787.51e4b9ae.chunk.js.map": "/Portfolio_03012022/static/js/787.51e4b9ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6697a031.css",
-    "static/js/main.fea67fa9.js"
+    "static/js/main.36083868.js"
   ]
 }
