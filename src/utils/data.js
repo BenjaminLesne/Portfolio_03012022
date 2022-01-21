@@ -43,7 +43,7 @@ const webPageTextContent = {
       icon: <EmailIcon className="SocialMedia__icon" color="#25364a" />,
       dataInfo: {
         EN: "click to copy my email",
-        FR: "cliquer, copie mon email",
+        FR: "cliquer copie mon email",
       },
     },
     {
