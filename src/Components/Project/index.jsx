@@ -20,7 +20,7 @@ const Project = ({
         >
           <h3
             className="Project__name"
-            style={{ backgroundColor: `rgba(${colorMask}, 0.8)` }}
+            style={{ backgroundColor: `rgb(${colorMask})` }}
           >
             {name}
           </h3>
