@@ -30,6 +30,10 @@
   content: "";
 }
 
+.MyProjects__showcase {
+  margin-top: 35px;
+}
+
 .MyProjects__filters {
   display: flex;
   justify-content: center;
@@ -77,10 +81,6 @@
 }
 
 .MyProjects__project {
-  /* aspect-ratio: 1.5; */
   height: var(--project-height);
   width: var(--project-width);
-  /* width: 25vw;
-  min-width: 270px;
-  max-width: 400px; */
 }
