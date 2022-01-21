@@ -5,9 +5,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  padding-right: calc(
-    var(--section-horizontal-padding) - var(--header-anchor-padding)
-  );
+  padding: 15px
+    calc(var(--section-horizontal-padding) - var(--header-anchor-padding));
+  padding-bottom: 0;
+  /* position: absolute; */
+  width: 100%;
+  max-width: 1400px;
 }
 
 .Header__list-of-anchors {

@@ -20,7 +20,6 @@
   /* transform: scale(1); => this was adding one pixel on height somehow, visually visible but not when we check element height with inspect tab */
   transition: 0.25s ease-in-out 0s;
 
-  /* prevents from seeing the image in corners' edges through overflow hidden */
   opacity: 1;
 }
 
@@ -28,6 +27,7 @@
   /* transform: scale(1.1); */
   width: 110%;
   height: 110%;
+  /* prevents from seeing the image in corners' edges through overflow hidden */
   opacity: 0;
 }
 

@@ -17,7 +17,7 @@ const AboutMe = ({ language, textContent }) => {
   }
 
   return (
-    <section className="AboutMe defaultSection">
+    <section className="AboutMe">
       <div className="AboutMe__text-wrapper">
         <h2 className="AboutMe__heading section-heading">
           {textContent[language].heading}

@@ -1,3 +1,5 @@
+-make hero textcontent centered with section + header size (troo much space bottom)
+
 -check compatibilité avec chrome
 -mobile/tablet version
 =>chargement image trop longue? 
@@ -8,6 +10,8 @@
 
 -fill my readme, the about the depository section as well
 -remove [en cours] in read me
+-after myprojects animation on filter, height is not auto. If window resize, it breaks the design.
+=> put height "auto" when animation done (how will it interact if we filter to fast multiple times?)
 
 
 

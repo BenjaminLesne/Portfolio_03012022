@@ -3,6 +3,8 @@
 
 body {
   color: var(--primary-color);
+  max-width: 1400px;
+  margin: auto;
 }
 
 .defaultSection {
