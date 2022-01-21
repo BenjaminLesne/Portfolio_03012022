@@ -8,7 +8,7 @@ This is my 2022 Portfolio
 
 **PROJECT GOALS**:
 
-- Simple, fast, minimalist and straightfoward Portfolio to reflect who I am
+- Simple, fast, minimalist and straightforward Portfolio to reflect who I am
 
 **Useful links:**
 
