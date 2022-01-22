@@ -188,7 +188,7 @@ const webPageTextContent = {
             logo: UkFlag,
             name: {
               EN: "english fluent",
-              FR: "anglais C2",
+              FR: "anglais C1",
             },
           },
           {
