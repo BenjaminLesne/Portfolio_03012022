@@ -12,8 +12,8 @@ This is my 2022 Portfolio
 
 **Useful links:**
 
-- [Website 🌍](https://benjaminlesne.github.io/Portfolio_03012022/)
-- [Source code 📖](https://github.com/BenjaminLesne/Portfolio_03012022)
+- [Website](https://benjaminlesne.github.io/Portfolio_03012022/)
+- [Source code](https://github.com/BenjaminLesne/Portfolio_03012022)
 
 **Technologies used:**
 
