@@ -20,3 +20,12 @@ This is my 2022 Portfolio
 - React
 - Jest
 - Git
+
+## Installation
+
+In your terminal, inside any folder:
+
+- Get the code with ```git clone https://github.com/BenjaminLesne/Portfolio_03012022.git```
+- Install the dependencies with ```yarn install```
+- launch the app in your browser on localhost:3000/Portfolio_03012022 with ```yarn start```
+
