@@ -1,3 +1,7 @@
+-mobile version
+=> header
+-create structure of project in readme.
+
 -make hero textcontent centered with section + header size (troo much space bottom)
 
 -check compatibilité avec chrome
