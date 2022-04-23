@@ -29,3 +29,14 @@ In your terminal, inside any folder:
 - Install the dependencies with ```yarn install```
 - launch the app in your browser on localhost:3000/Portfolio_03012022 with ```yarn start```
 
+## Deploy the app to github-pages
+
+In the root folder, in your terminal, run:
+
+- yarn deploy
+- Then go to: the github repository > settings > pages 
+- Wait until "Your site is published at" becomes green.
+- Then, check the result in your browser at https://benjaminlesne.github.io/Portfolio_03012022/
+
+If the website if running without the new changes, try to clear your cache.
+
