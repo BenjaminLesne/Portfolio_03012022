@@ -9,11 +9,11 @@
   --header-anchor-padding: 5px;
   --button-hover-transition: 0.4s ease-in-out;
   --aside-transition-icon: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  --project-width: calc(clamp(270px, 25vw, 397px));
+  --project-width: calc(clamp(270px, 25vw, 338px));
   --project-height: calc(var(--project-width) / 3 * 2);
   --skills-section-big-gap: 50px;
   --skills-section-medium-gap: 30px;
-  --about-me-font-size: clamp(1.1rem, 1.5vw, 1.35rem);
+  --about-me-font-size: clamp(1.1rem, 1.5vw, 1.25rem);
   --burger-button-slice-gap: 9px;
   --burger-button-slice-width: 30px;
   --burger-button-slice-border-width: 2px;
