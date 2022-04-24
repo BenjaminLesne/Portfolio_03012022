@@ -31,7 +31,7 @@
 
 .AboutMe__story {
   font-size: var(--about-me-font-size);
-  line-height: clamp(0.75rem, calc(1.5vw * 2), calc(1.35rem * 2));
+  line-height: clamp(0.75rem, calc(1.5vw * 2), calc(1.25rem * 2));
   text-align: justify;
 }
 
