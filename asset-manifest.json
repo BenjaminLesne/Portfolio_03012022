@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio_03012022/static/css/main.bbcdc4e9.css",
+    "main.css": "/Portfolio_03012022/static/css/main.bf22903d.css",
     "main.js": "/Portfolio_03012022/static/js/main.4d33cc47.js",
     "static/js/787.51899d06.chunk.js": "/Portfolio_03012022/static/js/787.51899d06.chunk.js",
     "static/media/CV_Benjamin-Lesne_FR.pdf": "/Portfolio_03012022/static/media/CV_Benjamin-Lesne_FR.34ce04589babd8807389.pdf",
@@ -26,12 +26,12 @@
     "static/media/CSS3.svg": "/Portfolio_03012022/static/media/CSS3.32b58ba6d3b3465b8bbd116ec62e99a8.svg",
     "static/media/check-circle-solid.svg": "/Portfolio_03012022/static/media/check-circle-solid.5199e832201934df7634.svg",
     "static/media/FrenchFlag.svg": "/Portfolio_03012022/static/media/FrenchFlag.eea1184081cb0aae75ee31cb3e6b0954.svg",
-    "main.bbcdc4e9.css.map": "/Portfolio_03012022/static/css/main.bbcdc4e9.css.map",
+    "main.bf22903d.css.map": "/Portfolio_03012022/static/css/main.bf22903d.css.map",
     "main.4d33cc47.js.map": "/Portfolio_03012022/static/js/main.4d33cc47.js.map",
     "787.51899d06.chunk.js.map": "/Portfolio_03012022/static/js/787.51899d06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbcdc4e9.css",
+    "static/css/main.bf22903d.css",
     "static/js/main.4d33cc47.js"
   ]
 }
