@@ -1,26 +1,27 @@
-import "./MyProjects.css";
+import "./MyProjects.css"
 
-import { v4 as uuidv4 } from "uuid";
-import React, { useState } from "react";
-import { Transition } from "react-transition-group";
+import { v4 as uuidv4 } from "uuid"
+import React, { useState } from "react"
+import { Transition } from "react-transition-group"
 
-import Project from "../Project";
-import handleFilterOnClick from "../../utils/functions/handleFilterOnClick";
+import Project from "../Project"
+import handleFilterOnClick from "../../utils/functions/handleFilterOnClick"
+import { handleTouchStart, handleTouchEnd, handleTouchMove } from "./functions"
 
 const MyProjects = ({ language, textContent }) => {
   const allProjectsSorted = textContent.projects.sort(
     (a, b) => (a.rate - b.rate) * -1
-  );
-  const [projects, setProjects] = useState(allProjectsSorted);
+  )
+  const [projects, setProjects] = useState(allProjectsSorted)
   const [filterState, setFilterState] = useState({
     activeFilter: 0,
     previousFilter: undefined,
-  });
+  })
   const [animationVariables, setAnimationVariables] = useState({
     previousHeight: undefined,
     currentHeight: undefined,
     shouldAnimate: false,
-  });
+  })
 
   const animation = {
     defaultStyle: {
@@ -34,7 +35,10 @@ const MyProjects = ({ language, textContent }) => {
       exited: {},
     },
     shouldAnimate: animationVariables.shouldAnimate,
-  };
+  }
+
+  let touchStartPoint
+  let shouldWeClick = true
 
   return (
     <Transition in={animation.shouldAnimate} timeout={0}>
@@ -54,16 +58,14 @@ const MyProjects = ({ language, textContent }) => {
           <div className="MyProjects__showcase">
             <ul className="MyProjects__filters">
               {textContent.filters.map((filter, index) => {
-                const filterValue = filter[language]
-                  ? filter[language]
-                  : filter;
+                const filterValue = filter[language] ? filter[language] : filter
 
                 const animation =
                   filterState.previousFilter === index
                     ? "fadeOut"
                     : filterState.activeFilter === index
                     ? "active"
-                    : null;
+                    : null
                 return (
                   <li
                     onClick={(e) =>
@@ -83,20 +85,33 @@ const MyProjects = ({ language, textContent }) => {
                   >
                     {filterValue}
                   </li>
-                );
+                )
               })}
             </ul>
             <ol className="MyProjects__projects">
               {projects.map((project) => {
                 const description = project.description[language]
                   ? project.description[language]
-                  : project.description;
+                  : project.description
                 const name = project.name[language]
                   ? project.name[language]
-                  : project.name;
+                  : project.name
 
                 return (
-                  <li className="MyProjects__project" key={uuidv4()}>
+                  <li
+                    className="MyProjects__project"
+                    key={uuidv4()}
+                    onTouchStart={(e) => {
+                      shouldWeClick = true
+                      touchStartPoint = handleTouchStart(e)
+                    }}
+                    onTouchEnd={(e) =>
+                      handleTouchEnd(e, shouldWeClick, project.websiteUrl)
+                    }
+                    onTouchMove={(e) =>
+                      (shouldWeClick = handleTouchMove(e, touchStartPoint))
+                    }
+                  >
                     <Project
                       name={name}
                       description={description}
@@ -109,14 +124,14 @@ const MyProjects = ({ language, textContent }) => {
                       language={language}
                     />
                   </li>
-                );
+                )
               })}
             </ol>
           </div>
         </section>
       )}
     </Transition>
-  );
-};
+  )
+}
 
-export default MyProjects;
+export default MyProjects
