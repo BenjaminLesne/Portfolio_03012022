@@ -1,38 +1,38 @@
 //technologies related logos
-import reactLogo from "../assets/logos/skills/React.svg";
-import javaScriptLogo from "../assets/logos/skills/JS.svg";
-import reduxLogo from "../assets/logos/skills/redux.svg";
-import jestLogo from "../assets/logos/skills/Jest.svg";
-import gitLogo from "../assets/logos/skills/Git.svg";
-import sassLogo from "../assets/logos/skills/Sass.svg";
-import css3Logo from "../assets/logos/skills/CSS3.svg";
-import html5Logo from "../assets/logos/skills/HTML5.svg";
-import JSdocLogo from "../assets/logos/skills/JSdoc.svg";
+import reactLogo from "../assets/logos/skills/React.svg"
+import javaScriptLogo from "../assets/logos/skills/JS.svg"
+import reduxLogo from "../assets/logos/skills/redux.svg"
+import jestLogo from "../assets/logos/skills/Jest.svg"
+import gitLogo from "../assets/logos/skills/Git.svg"
+import sassLogo from "../assets/logos/skills/Sass.svg"
+import css3Logo from "../assets/logos/skills/CSS3.svg"
+import html5Logo from "../assets/logos/skills/HTML5.svg"
+import JSdocLogo from "../assets/logos/skills/JSdoc.svg"
 
-import typeScritLogo from "../assets/logos/skills/TypeScript.svg";
+import typeScritLogo from "../assets/logos/skills/TypeScript.svg"
 
 //languages spoken related
-import UkFlag from "../assets/logos/languages/UkFlag.svg";
-import FrenchFlag from "../assets/logos/languages/FrenchFlag.svg";
-import SpanishFlag from "../assets/logos/languages/SpanishFlag.svg";
+import UkFlag from "../assets/logos/languages/UkFlag.svg"
+import FrenchFlag from "../assets/logos/languages/FrenchFlag.svg"
+import SpanishFlag from "../assets/logos/languages/SpanishFlag.svg"
 
 //social medias logos
-import EmailIcon from "../assets/logos/social-media/AtIcon";
-import GithubIcon from "../assets/logos/social-media/GithubIcon";
-import LinkedInIcon from "../assets/logos/social-media/LinkedInIcon";
+import EmailIcon from "../assets/logos/social-media/AtIcon"
+import GithubIcon from "../assets/logos/social-media/GithubIcon"
+import LinkedInIcon from "../assets/logos/social-media/LinkedInIcon"
 
 //contact logo
-import PhoneIcon from "../assets/logos/others/PhoneIcon";
+import PhoneIcon from "../assets/logos/others/PhoneIcon"
 
 //projects screenshots
-import LesPetitsPlats from "../assets/website-screenshots/LesPetitsPlats.png";
-import HRnet from "../assets/website-screenshots/HRnet.png";
-import Kasa from "../assets/website-screenshots/Kasa.png";
-import ohmyfood from "../assets/website-screenshots/ohmyfood.png";
+import LesPetitsPlats from "../assets/website-screenshots/LesPetitsPlats.png"
+import HRnet from "../assets/website-screenshots/HRnet.png"
+import Kasa from "../assets/website-screenshots/Kasa.png"
+import ohmyfood from "../assets/website-screenshots/ohmyfood.png"
 
 //my CVs
-import frenchCV from "../assets/CV/CV_Benjamin-Lesne_FR.pdf";
-import englishCV from "../assets/CV/CV_Benjamin-Lesne_EN.pdf";
+import frenchCV from "../assets/CV/CV_Benjamin-Lesne_FR.pdf"
+import englishCV from "../assets/CV/CV_Benjamin-Lesne_EN.pdf"
 
 const webPageTextContent = {
   socialMedia: [
@@ -213,7 +213,7 @@ const webPageTextContent = {
     ],
     projects: [
       {
-        rate: 10,
+        rate: 4,
         name: "HRnet",
         websiteUrl:
           "https://benjaminlesne.github.io/BenjaminLesne_14_07122021/",
@@ -232,7 +232,7 @@ const webPageTextContent = {
         },
       },
       {
-        rate: 5,
+        rate: 10,
         name: "ohmyfood",
         websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
         sourceCodeUrl:
@@ -250,7 +250,7 @@ const webPageTextContent = {
         },
       },
       {
-        rate: 4,
+        rate: 5,
         name: "Kasa",
         websiteUrl:
           "https://benjaminlesne.github.io/BenjaminLesne_11_23112021/",
@@ -320,6 +320,6 @@ const webPageTextContent = {
       },
     },
   },
-};
+}
 
-export default webPageTextContent;
+export default webPageTextContent
