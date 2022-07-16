@@ -1,9 +1,5 @@
 # Portfolio_03012022
 
-[EN-COURS] / [IN PROGRESS]
-(Version Bureau fait, je suis sur le mobile/tablette)
-(Desktop version done, working on mobile/tablet)
-
 This is my 2022 Portfolio
 
 **PROJECT GOALS**:
@@ -38,5 +34,5 @@ In the root folder, in your terminal, run:
 - Wait until "Your site is published at" becomes green.
 - Then, check the result in your browser at https://benjaminlesne.github.io/Portfolio_03012022/
 
-If the website if running without the new changes, try to clear your cache.
+If the website is running without the new changes, try to clear your cache.
 
