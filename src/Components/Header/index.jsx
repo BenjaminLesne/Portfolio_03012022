@@ -1,26 +1,25 @@
-import LanguageSelector from "../LanguageSelector"
-import { v4 as uuidv4 } from "uuid"
-import { enableScroll, disableScroll } from "./functions"
-import { useState } from "react"
+import LanguageSelector from "../LanguageSelector";
+import { v4 as uuidv4 } from "uuid";
+import { enableScroll, disableScroll } from "./functions";
+import { useState } from "react";
 
-import "./header.css"
+import "./header.css";
 
 const Header = ({ language, textContent, setLanguage }) => {
-  const [isNavOpen, setIsNavOpen] = useState(false)
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
   function handleOpenNavigation(e) {
-    console.log("e", e)
-    disableScroll()
-    setIsNavOpen(true)
+    disableScroll();
+    setIsNavOpen(true);
   }
 
   function handleCloseNavigation() {
-    enableScroll()
-    setIsNavOpen(false)
+    enableScroll();
+    setIsNavOpen(false);
   }
   return (
     <header className="Header" data-testid="header">
-      <LanguageSelector setLanguage={setLanguage} />
+      <LanguageSelector setLanguage={setLanguage} lang={language} />
       <button
         className="Navigation-open-button"
         onClick={() => handleOpenNavigation()}
@@ -47,12 +46,12 @@ const Header = ({ language, textContent, setLanguage }) => {
                     : item.linkText}
                 </a>
               </li>
-            )
+            );
           })}
         </ul>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

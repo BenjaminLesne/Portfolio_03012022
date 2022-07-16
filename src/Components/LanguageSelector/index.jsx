@@ -1,40 +1,60 @@
+import { useEffect } from "react";
 import UkFlag from "../../assets/logos/languages/UkFlag.svg";
 import FrenchFlag from "../../assets/logos/languages/FrenchFlag.svg";
 
 import "./LanguageSelector.css";
 
-const LanguageSelector = ({ setLanguage }) => {
+const LanguageSelector = ({ setLanguage, lang }) => {
   function handleLanguageChange(language) {
+    const currentUrl = new URL(window.location);
     const languageSelectorButton = document.querySelector(
       ".LanguageSelector__button"
     );
 
+    function updateToFrenchUI() {
+      languageSelectorButton.classList.remove("active");
+      setLanguage("FR");
+      currentUrl.searchParams.delete("lang");
+      window.history.pushState({}, "", currentUrl);
+    }
+
+    function updateToEnglishUI() {
+      languageSelectorButton.classList.add("active");
+      setLanguage("EN");
+      currentUrl.searchParams.append("lang", "english");
+      window.history.pushState({}, "", currentUrl);
+    }
+
     switch (language) {
       case "french":
         if (languageSelectorButton.classList.contains("active")) {
-          languageSelectorButton.classList.remove("active");
-          setLanguage("FR");
+          updateToFrenchUI();
         }
         break;
 
       case "english":
         if (!languageSelectorButton.classList.contains("active")) {
-          languageSelectorButton.classList.add("active");
-          setLanguage("EN");
+          updateToEnglishUI();
         }
         break;
 
       default:
         if (languageSelectorButton.classList.contains("active")) {
-          languageSelectorButton.classList.remove("active");
-          setLanguage("FR");
+          updateToFrenchUI();
         } else {
-          languageSelectorButton.classList.add("active");
-          setLanguage("EN");
+          updateToEnglishUI();
         }
         break;
     }
   }
+
+  useEffect(() => {
+    if (lang === "EN") {
+      document
+        .querySelector(".LanguageSelector__button")
+        .classList.add("active");
+    }
+  }, []);
 
   return (
     <div className="LanguageSelector">

@@ -13,7 +13,9 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [language, setLanguage] = useState("FR");
+  const params = new URLSearchParams(document.location.search);
+  const languageToUse = params.has("lang") ? "EN" : "FR";
+  const [language, setLanguage] = useState(languageToUse);
 
   return (
     <div lang={language.toLocaleLowerCase()} data-testid="App">
