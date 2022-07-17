@@ -44,6 +44,7 @@
   --side-length: clamp(50px, 4vw, 60px);
   width: var(--side-length);
   height: var(--side-length);
+  display: flex;
 }
 
 .Skills__logo {

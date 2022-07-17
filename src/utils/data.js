@@ -1,38 +1,43 @@
 //technologies related logos
-import reactLogo from "../assets/logos/skills/React.svg"
-import javaScriptLogo from "../assets/logos/skills/JS.svg"
-import reduxLogo from "../assets/logos/skills/redux.svg"
-import jestLogo from "../assets/logos/skills/Jest.svg"
-import gitLogo from "../assets/logos/skills/Git.svg"
-import sassLogo from "../assets/logos/skills/Sass.svg"
-import css3Logo from "../assets/logos/skills/CSS3.svg"
-import html5Logo from "../assets/logos/skills/HTML5.svg"
-import JSdocLogo from "../assets/logos/skills/JSdoc.svg"
+import reactLogo from "../assets/logos/skills/React.svg";
+import javaScriptLogo from "../assets/logos/skills/JS.svg";
+import reduxLogo from "../assets/logos/skills/redux.svg";
+import jestLogo from "../assets/logos/skills/Jest.svg";
+import gitLogo from "../assets/logos/skills/Git.svg";
+import sassLogo from "../assets/logos/skills/Sass.svg";
+import css3Logo from "../assets/logos/skills/CSS3.svg";
+import html5Logo from "../assets/logos/skills/HTML5.svg";
+import JSdocLogo from "../assets/logos/skills/JSdoc.svg";
+import jiraLogo from "../assets/logos/skills/Jira.svg";
+import svelteLogo from "../assets/logos/skills/Svelte.svg";
+import linuxLogo from "../assets/logos/skills/Linux.svg";
+import reactNativeLogo from "../assets/logos/skills/ReactNative.svg";
+import agileLogo from "../assets/logos/skills/Agile.svg";
 
-import typeScritLogo from "../assets/logos/skills/TypeScript.svg"
+import typeScritLogo from "../assets/logos/skills/TypeScript.svg";
 
 //languages spoken related
-import UkFlag from "../assets/logos/languages/UkFlag.svg"
-import FrenchFlag from "../assets/logos/languages/FrenchFlag.svg"
-import SpanishFlag from "../assets/logos/languages/SpanishFlag.svg"
+import UkFlag from "../assets/logos/languages/UkFlag.svg";
+import FrenchFlag from "../assets/logos/languages/FrenchFlag.svg";
+import SpanishFlag from "../assets/logos/languages/SpanishFlag.svg";
 
 //social medias logos
-import EmailIcon from "../assets/logos/social-media/AtIcon"
-import GithubIcon from "../assets/logos/social-media/GithubIcon"
-import LinkedInIcon from "../assets/logos/social-media/LinkedInIcon"
+import EmailIcon from "../assets/logos/social-media/AtIcon";
+import GithubIcon from "../assets/logos/social-media/GithubIcon";
+import LinkedInIcon from "../assets/logos/social-media/LinkedInIcon";
 
 //contact logo
-import PhoneIcon from "../assets/logos/others/PhoneIcon"
+import PhoneIcon from "../assets/logos/others/PhoneIcon";
 
 //projects screenshots
-import LesPetitsPlats from "../assets/website-screenshots/LesPetitsPlats.png"
-import HRnet from "../assets/website-screenshots/HRnet.png"
-import Kasa from "../assets/website-screenshots/Kasa.png"
-import ohmyfood from "../assets/website-screenshots/ohmyfood.png"
+import LesPetitsPlats from "../assets/website-screenshots/LesPetitsPlats.png";
+import HRnet from "../assets/website-screenshots/HRnet.png";
+import Kasa from "../assets/website-screenshots/Kasa.png";
+import ohmyfood from "../assets/website-screenshots/ohmyfood.png";
 
 //my CVs
-import frenchCV from "../assets/CV/CV_Benjamin-Lesne_FR.pdf"
-import englishCV from "../assets/CV/CV_Benjamin-Lesne_EN.pdf"
+import frenchCV from "../assets/CV/CV_Benjamin-Lesne_FR.pdf";
+import englishCV from "../assets/CV/CV_Benjamin-Lesne_EN.pdf";
 
 const webPageTextContent = {
   socialMedia: [
@@ -97,14 +102,14 @@ const webPageTextContent = {
     EN: {
       heading: "my story",
       story:
-        "After high school, I tried different fields and it took me a while to figure out which career would best fit me. until I discovered my passion for coding. now, after the [OpenClassrooms Front-End course](https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react), I am ready to kick off my career.",
+        "After high school, I tried different fields and it took me a while to figure out which career would best fit me... Until I discover my passion for coding! Now, after my first professional experience, I am looking forward for more adventures!",
       callToAction: "[check out my projects below](#my-projects)!",
     },
 
     FR: {
       heading: "qui suis-je",
       story:
-        "Après le lycée, j'ai essayé différents domaines et il m'a fallu du temps pour trouver la carrière qui me correspondait le mieux. Jusqu'à ce que je découvre ma passion pour le code. Maintenant, après la [formation Front-End d'Openclassrooms](https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react), je suis prêt à commencer ma carrière.",
+        "Après le lycée, j'ai essayé différents domaines et il m'a fallu du temps pour trouver la carrière qui me correspondait le mieux... Jusqu'à ce que je découvre ma passion pour le code ! Maintenant, après ma première expérience professionnelle, je suis impatient de vivre d'autres aventures !",
       callToAction: "[découvrez mes projets ici](#my-projects) !",
     },
   },
@@ -126,8 +131,8 @@ const webPageTextContent = {
             name: "react",
           },
           {
-            logo: javaScriptLogo,
-            name: "javascript",
+            logo: reactNativeLogo,
+            name: "react native",
           },
           {
             logo: reduxLogo,
@@ -138,16 +143,28 @@ const webPageTextContent = {
             name: "jest",
           },
           {
-            logo: JSdocLogo,
-            name: "jsdoc",
+            logo: jiraLogo,
+            name: "Jira",
+          },
+          {
+            logo: agileLogo,
+            name: "Agile",
+          },
+          {
+            logo: linuxLogo,
+            name: "Linux",
+          },
+          {
+            logo: typeScritLogo,
+            name: "typescript",
           },
           {
             logo: gitLogo,
             name: "git",
           },
           {
-            logo: sassLogo,
-            name: "sass",
+            logo: javaScriptLogo,
+            name: "javascript",
           },
           {
             logo: css3Logo,
@@ -166,8 +183,8 @@ const webPageTextContent = {
         },
         content: [
           {
-            logo: typeScritLogo,
-            name: "typescript",
+            logo: svelteLogo,
+            name: "Svelte",
           },
         ],
       },
@@ -199,6 +216,16 @@ const webPageTextContent = {
             },
           },
         ],
+      },
+    ],
+    skillsNotDisplayed: [
+      {
+        logo: JSdocLogo,
+        name: "jsdoc",
+      },
+      {
+        logo: sassLogo,
+        name: "sass",
       },
     ],
   },
@@ -320,6 +347,6 @@ const webPageTextContent = {
       },
     },
   },
-}
+};
 
-export default webPageTextContent
+export default webPageTextContent;
