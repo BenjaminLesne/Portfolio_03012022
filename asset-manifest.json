@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_03012022/static/css/main.95da4991.css",
-    "main.js": "/Portfolio_03012022/static/js/main.d6f8f94a.js",
+    "main.css": "/Portfolio_03012022/static/css/main.adf9dd84.css",
+    "main.js": "/Portfolio_03012022/static/js/main.8c568e9f.js",
     "static/js/787.51899d06.chunk.js": "/Portfolio_03012022/static/js/787.51899d06.chunk.js",
     "static/media/CV_Benjamin-Lesne_FR.pdf": "/Portfolio_03012022/static/media/CV_Benjamin-Lesne_FR.34ce04589babd8807389.pdf",
     "static/media/CV_Benjamin-Lesne_EN.pdf": "/Portfolio_03012022/static/media/CV_Benjamin-Lesne_EN.5632f8985b079d14fbd0.pdf",
@@ -10,6 +10,7 @@
     "static/media/ohmyfood.png": "/Portfolio_03012022/static/media/ohmyfood.d4fee0b977b741fc68f4.png",
     "static/media/me-profile-picture.png": "/Portfolio_03012022/static/media/me-profile-picture.4a8e19b4b46ff6cc03c5.png",
     "static/media/LesPetitsPlats.png": "/Portfolio_03012022/static/media/LesPetitsPlats.7737f8f0e7ba2bc65bd6.png",
+    "static/media/Linux.svg": "/Portfolio_03012022/static/media/Linux.c1a7067849838b34913f13930153c73b.svg",
     "static/media/HRnet.png": "/Portfolio_03012022/static/media/HRnet.ddf532b0429d2fdb7c49.png",
     "static/media/SpanishFlag.svg": "/Portfolio_03012022/static/media/SpanishFlag.125d62aef1a48ac7f0bc9a54e2b146c4.svg",
     "static/media/React.svg": "/Portfolio_03012022/static/media/React.5e6acf82aa09f4f59ee9fe20b8ae2147.svg",
@@ -17,21 +18,25 @@
     "static/media/UkFlag.svg": "/Portfolio_03012022/static/media/UkFlag.c2efac0cac3cd49f22aff30650af2f7d.svg",
     "static/media/redux.svg": "/Portfolio_03012022/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "static/media/TypeScript.svg": "/Portfolio_03012022/static/media/TypeScript.2fe3fb34ef41c06c5f074140be9c37cf.svg",
+    "static/media/Agile.svg": "/Portfolio_03012022/static/media/Agile.5ad8541737f51a365352ea794347e97c.svg",
+    "static/media/Svelte.svg": "/Portfolio_03012022/static/media/Svelte.01b85b0176a386250edb04868ba9ee8e.svg",
     "static/media/Jest.svg": "/Portfolio_03012022/static/media/Jest.56098530d6fecd23c4af962e50e0c8c4.svg",
     "static/media/JSdoc.svg": "/Portfolio_03012022/static/media/JSdoc.6ed816600dd284c0fc4584a2a2e4dd41.svg",
     "index.html": "/Portfolio_03012022/index.html",
     "static/media/HTML5.svg": "/Portfolio_03012022/static/media/HTML5.fb31f478e952c53a5f28a62e55c1b63f.svg",
     "static/media/Git.svg": "/Portfolio_03012022/static/media/Git.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "static/media/Jira.svg": "/Portfolio_03012022/static/media/Jira.6476811a61f055b66dfcf45e2d1f77ca.svg",
     "static/media/JS.svg": "/Portfolio_03012022/static/media/JS.acc4642f682cd93a4c20a8a02c0cfa21.svg",
     "static/media/CSS3.svg": "/Portfolio_03012022/static/media/CSS3.32b58ba6d3b3465b8bbd116ec62e99a8.svg",
     "static/media/check-circle-solid.svg": "/Portfolio_03012022/static/media/check-circle-solid.5199e832201934df7634.svg",
     "static/media/FrenchFlag.svg": "/Portfolio_03012022/static/media/FrenchFlag.eea1184081cb0aae75ee31cb3e6b0954.svg",
-    "main.95da4991.css.map": "/Portfolio_03012022/static/css/main.95da4991.css.map",
-    "main.d6f8f94a.js.map": "/Portfolio_03012022/static/js/main.d6f8f94a.js.map",
+    "static/media/ReactNative.svg": "/Portfolio_03012022/static/media/ReactNative.638b460cfd7b8709a2ba536e4fc72861.svg",
+    "main.adf9dd84.css.map": "/Portfolio_03012022/static/css/main.adf9dd84.css.map",
+    "main.8c568e9f.js.map": "/Portfolio_03012022/static/js/main.8c568e9f.js.map",
     "787.51899d06.chunk.js.map": "/Portfolio_03012022/static/js/787.51899d06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95da4991.css",
-    "static/js/main.d6f8f94a.js"
+    "static/css/main.adf9dd84.css",
+    "static/js/main.8c568e9f.js"
   ]
 }
