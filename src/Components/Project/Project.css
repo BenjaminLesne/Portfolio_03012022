@@ -16,20 +16,17 @@
   transform: translate(-50%, -50%);
   height: 100%;
   width: 100%;
-
-  /* transform: scale(1); => this was adding one pixel on height somehow, visually visible but not when we check element height with inspect tab */
-  transition: 0.25s ease-in-out 0s;
+  transition: var(--project-image-transition-duration) ease-in-out 0s;
 
   opacity: 1;
 }
 
-.Project:hover .Project__image {
-  /* transform: scale(1.1); */
+/* .Project:hover .Project__image {
   width: 110%;
   height: 110%;
-  /* prevents from seeing the image in corners' edges through overflow hidden */
+   prevents from seeing the image in corners' edges through overflow hidden 
   opacity: 0;
-}
+} */
 
 .Project__overlay {
   position: absolute;
@@ -66,9 +63,9 @@
   z-index: 1;
 }
 
-.Project:hover .Project__information {
+/* .Project:hover .Project__information {
   opacity: 1;
-}
+} */
 
 .Project__icon-favorite-wrapper {
   position: absolute;
@@ -85,7 +82,6 @@
 .Project__description {
   font-size: clamp(0.9rem, 1.3vw, 1.25rem);
   line-height: 150%;
-  /* margin-top: auto; */
   margin: auto;
 }
 
@@ -93,8 +89,10 @@
   display: flex;
   justify-content: center;
   gap: 15%;
-  /* margin: auto 0 5% 0; */
   margin-bottom: 5%;
+  visibility: hidden;
+  transition-delay: 0.25s;
+  transition-property: visibility;
 }
 
 .Project__link {
@@ -105,8 +103,54 @@
   background-color: transparent;
 }
 
-.Project__link:hover {
+/* .Project__link:hover {
   background-color: white;
   color: var(--primary-color);
   transition: var(--button-hover-transition);
+} */
+
+@media (hover: hover) {
+  .Project:hover .Project__image {
+    width: 110%;
+    height: 110%;
+    /* prevents from seeing the image in corners' edges through overflow hidden */
+    opacity: 0;
+  }
+
+  .Project:hover .Project__information {
+    opacity: 1;
+  }
+
+  .Project:hover .Project__links {
+    visibility: visible;
+  }
+
+  .Project__link:hover {
+    background-color: white;
+    color: var(--primary-color);
+    transition: var(--button-hover-transition);
+  }
+}
+
+@media (hover: none) {
+  .Project.show .Project__image {
+    width: 110%;
+    height: 110%;
+    /* prevents from seeing the image in corners' edges through overflow hidden */
+    opacity: 0;
+  }
+
+  .Project.show .Project__information {
+    opacity: 1;
+  }
+
+  .Project.show .Project__links {
+    visibility: visible;
+  }
+
+  .Project__link {
+    background-color: white;
+    color: var(--primary-color);
+    transition: var(--button-hover-transition);
+  }
 }

@@ -18,4 +18,5 @@
   --burger-button-slice-width: 30px;
   --burger-button-slice-border-width: 2px;
   --navigation-opening-duration: 0.75s;
+  --project-image-transition-duration: 0.25s;
 }
