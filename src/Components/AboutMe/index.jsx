@@ -1,7 +1,6 @@
 import "./AboutMe.css";
 import picture500W from "../../assets/pictures/me-500w.png";
-import profilePicture273W from "../../assets/pictures/me-profile-picture.png";
-
+import picture200W from "../../assets/pictures/me-200w.png";
 
 import convertLinkInStringToHTML from "../../utils/functions/convertLinkInStringToHTML";
 import uppercaseFirstLetterAfterDot from "../../utils/functions/uppercaseFirstLetterAfterDot";
@@ -39,8 +38,8 @@ const AboutMe = ({ language, textContent }) => {
       </div>
       <img
         className="AboutMe__picture"
-        srcSet={`${profilePicture273W} 273w, ${picture500W} 500w`}
-        sizes="(max-width: 830px) 273px, 500px"
+        srcSet={`${picture200W} 200w, ${picture500W}`}
+        sizes="(max-width: 830px) 200px"
         src={picture500W}
         alt={
           language === "EN"
