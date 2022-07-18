@@ -53,16 +53,12 @@
   transform: translateY(calc(100% * ((100 / var(--picture-height)) - 1)));
 }
 
-
 @media screen and (max-width: 830px) {
-
   .AboutMe {
     flex-direction: column-reverse;
     align-items: center;
     height: initial;
   }
-
-
 
   .AboutMe__picture {
     padding: initial;
@@ -70,9 +66,7 @@
     top: -42px;
     height: 140px;
     border-radius: 100%;
-
-
-
+    background: rgb(255, 255, 255);
   }
 
   .AboutMe__text-wrapper {
@@ -85,7 +79,4 @@
     line-height: clamp(2.2rem, calc(1.5vw * 2), calc(1.35rem * 2));
     text-align: justify;
   }
-
-
-
 }
