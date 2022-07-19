@@ -102,7 +102,7 @@ const webPageTextContent = {
     EN: {
       heading: "my story",
       story:
-        "After high school, I tried different fields and it took me a while to figure out which career would best fit me... Until I discover my passion for coding! Now, after my first professional experience, I am looking forward for more adventures!",
+        "After high school, I tried different fields and it took me a while to figure out which career would best fit me... Until I discovered my passion for coding! Now, after my first professional experience, I am looking forward for more adventures!",
       callToAction: "[check out my projects below](#my-projects)!",
     },
 
