@@ -1,7 +1,7 @@
 const AtIcon = ({ className, color }) => {
   return (
     <svg
-      fill={color}
+      fill={color ? color : "currentColor"}
       className={className}
       version="1.1"
       viewBox="0 0 48 48"

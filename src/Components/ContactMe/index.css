@@ -65,6 +65,10 @@
 
 .ContactMe__value {
   font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 a.ContactMe__value {

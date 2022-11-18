@@ -1,7 +1,7 @@
 const GithubIcon = ({ className, color }) => {
   return (
     <svg
-      fill={color}
+      fill={color ? color : "currentColor"}
       className={className}
       viewBox="0 0 256 250"
       version="1.1"

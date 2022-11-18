@@ -52,7 +52,7 @@ const MyProjects = ({ language, textContent }) => {
             {textContent.heading[language]}
           </h2>
           <div className="MyProjects__showcase">
-            <ul className="MyProjects__filters">
+            {/* <ul className="MyProjects__filters">
               {textContent.filters.map((filter, index) => {
                 const filterValue = filter[language]
                   ? filter[language]
@@ -85,7 +85,7 @@ const MyProjects = ({ language, textContent }) => {
                   </li>
                 );
               })}
-            </ul>
+            </ul> */}
             <ol className="MyProjects__projects">
               {projects.map((project) => {
                 const description = project.description[language]

@@ -8,11 +8,12 @@ import sassLogo from "../assets/logos/skills/Sass.svg";
 import css3Logo from "../assets/logos/skills/CSS3.svg";
 import html5Logo from "../assets/logos/skills/HTML5.svg";
 import JSdocLogo from "../assets/logos/skills/JSdoc.svg";
-import jiraLogo from "../assets/logos/skills/Jira.svg";
-import svelteLogo from "../assets/logos/skills/Svelte.svg";
-import linuxLogo from "../assets/logos/skills/Linux.svg";
 import reactNativeLogo from "../assets/logos/skills/ReactNative.svg";
 import agileLogo from "../assets/logos/skills/Agile.svg";
+import webpackLogo from "../assets/logos/skills/Webpack.svg";
+import phpLogo from "../assets/logos/skills/PHP.svg";
+import pythonLogo from "../assets/logos/skills/Python.svg";
+import seleniumLogo from "../assets/logos/skills/Selenium.svg";
 
 import typeScritLogo from "../assets/logos/skills/TypeScript.svg";
 
@@ -30,10 +31,8 @@ import LinkedInIcon from "../assets/logos/social-media/LinkedInIcon";
 import PhoneIcon from "../assets/logos/others/PhoneIcon";
 
 //projects screenshots
-import LesPetitsPlats from "../assets/website-screenshots/LesPetitsPlats.png";
-import HRnet from "../assets/website-screenshots/HRnet.png";
-import Kasa from "../assets/website-screenshots/Kasa.png";
 import ohmyfood from "../assets/website-screenshots/ohmyfood.png";
+import Jegwell from "../assets/website-screenshots/Jegwell.png";
 
 //my CVs
 import frenchCV from "../assets/CV/CV_Benjamin-Lesne_FR.pdf";
@@ -143,20 +142,16 @@ const webPageTextContent = {
             name: "jest",
           },
           {
-            logo: jiraLogo,
-            name: "Jira",
+            logo: typeScritLogo,
+            name: "typescript",
+          },
+          {
+            logo: sassLogo,
+            name: "sass",
           },
           {
             logo: agileLogo,
             name: "Agile",
-          },
-          {
-            logo: linuxLogo,
-            name: "Linux",
-          },
-          {
-            logo: typeScritLogo,
-            name: "typescript",
           },
           {
             logo: gitLogo,
@@ -174,6 +169,18 @@ const webPageTextContent = {
             logo: html5Logo,
             name: "html5",
           },
+          {
+            logo: phpLogo,
+            name: "PHP",
+          },
+          {
+            logo: pythonLogo,
+            name: "Python",
+          },
+          {
+            logo: seleniumLogo,
+            name: "Selenium",
+          },
         ],
       },
       {
@@ -183,8 +190,8 @@ const webPageTextContent = {
         },
         content: [
           {
-            logo: svelteLogo,
-            name: "Svelte",
+            logo: webpackLogo,
+            name: "Webpack",
           },
         ],
       },
@@ -234,41 +241,22 @@ const webPageTextContent = {
     filters: [
       { EN: "all", FR: "tous" },
       "react",
-      "javascript",
-      "redux",
-      "sass",
+      "vanilla js",
+      // "redux",
+      // "sass",
     ],
     projects: [
       {
-        rate: 4,
-        name: "HRnet",
-        websiteUrl:
-          "https://benjaminlesne.github.io/BenjaminLesne_14_07122021/",
-        sourceCodeUrl:
-          "https://github.com/BenjaminLesne/BenjaminLesne_14_07122021",
-        description: {
-          FR: "Refonte d'une application, gérant le registre des employés, en React (originellement en Jquery) - Projet OpenClassrooms.",
-          EN: "Redesign of an application, managing the employee register, in React (originally in Jquery) - OpenClassrooms' Project.",
-        },
-        tags: ["react", "redux"],
-        colorMask: "75, 131, 130",
-        image: HRnet,
-        alt: {
-          EN: "HRnet website screenshot",
-          FR: "HRnet capture d'écran du site web",
-        },
-      },
-      {
-        rate: 10,
+        rate: 8,
         name: "ohmyfood",
         websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
         sourceCodeUrl:
           "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
         description: {
-          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques - Projet OpenClassrooms.",
-          EN: "Mobile-first site that lists the menus of gourmet restaurants - OpenClassrooms' Project.",
+          FR: "Site mobile-first qui répertorie les menus de restaurants gastronomiques (Projet de la formation OpenClassrooms).",
+          EN: "Mobile-first site that lists the menus of gourmet restaurants (OpenClassrooms training project).",
         },
-        tags: ["sass", "javascript"],
+        tags: ["sass", "vanilla js"],
         colorMask: "157, 83, 83",
         image: ohmyfood,
         alt: {
@@ -277,40 +265,20 @@ const webPageTextContent = {
         },
       },
       {
-        rate: 5,
-        name: "Kasa",
-        websiteUrl:
-          "https://benjaminlesne.github.io/BenjaminLesne_11_23112021/",
-        sourceCodeUrl:
-          "https://github.com/BenjaminLesne/BenjaminLesne_11_23112021",
+        rate: 10,
+        name: "Jegwell",
+        websiteUrl: "https://jegwell.fr",
+        sourceCodeUrl: "https://github.com/BenjaminLesne/Jegwell",
         description: {
-          FR: "Kasa est une application C2C pour la location d'appartements - Projet OpenClassrooms.",
-          EN: "Kasa is a C2C application for renting apartments - OpenClassrooms' Project.",
+          FR: "E-commerce officiel de Jegwell. C'est une marque de bijoux faits-main avec plus de 6000 followers sur instagram !",
+          EN: "Official E-commerce of Jegwell. It's a handmade jewelry brand with over 6000 followers on instagram!",
         },
-        tags: ["react"],
-        colorMask: "187, 135, 96",
-        image: Kasa,
+        tags: ["PHP", "vanilla js", "python", "sanity"],
+        colorMask: "75, 131, 130",
+        image: Jegwell,
         alt: {
-          EN: "Kasa website screenshot",
-          FR: "Kasa capture d'écran du site web",
-        },
-      },
-      {
-        rate: 3,
-        name: "Les Petits Plats",
-        websiteUrl: "https://benjaminlesne.github.io/BenjaminLesne_7_31102021/",
-        sourceCodeUrl:
-          "https://github.com/BenjaminLesne/BenjaminLesne_7_31102021",
-        description: {
-          FR: "Moteur de recherche de recettes basé sur les ingrédients et les ustensiles que vous avez sous la main - Projet OpenClassrooms.",
-          EN: "Recipe search engine based on the ingredients and utensils you have on hand - OpenClassrooms' Project.",
-        },
-        tags: ["sass", "javascript"],
-        colorMask: "50, 82, 136",
-        image: LesPetitsPlats,
-        alt: {
-          EN: "Les Petits Plats website screenshot",
-          FR: "Les Petits Plats capture d'écran du site web",
+          EN: "screenshot of the Jegwell.fr website",
+          FR: "capture d'écran du site Jegwell.fr",
         },
       },
     ],
@@ -329,6 +297,17 @@ const webPageTextContent = {
       FR: "obtenez mon numéro dans mon CV ici ",
     },
     linkToCV: { EN: englishCV, FR: frenchCV },
+    github: {
+      link: "https://github.com/BenjaminLesne",
+      message: { EN: "My Github", FR: "Mon Github" },
+    },
+    linkedIn: {
+      link: {
+        EN: "https://www.linkedin.com/in/benjamin-lesne/?locale=en_US",
+        FR: "https://www.linkedin.com/in/benjamin-lesne/",
+      },
+      message: { EN: "My LinkedIn", FR: "Mon LinkedIn" },
+    },
   },
   footer: {
     backToTop: { EN: "back to top", FR: "retour en haut de page" },
