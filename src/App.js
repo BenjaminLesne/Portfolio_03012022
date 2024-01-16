@@ -13,6 +13,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
+  window.location.replace("https://benjamin-lesne.dev/");
   const params = new URLSearchParams(document.location.search);
   const languageToUse = params.has("lang") ? "EN" : "FR";
   const [language, setLanguage] = useState(languageToUse);
